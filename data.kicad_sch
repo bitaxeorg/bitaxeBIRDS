@@ -3799,7 +3799,7 @@
 	)
 	(text "BOOT"
 		(exclude_from_sim no)
-		(at 164.084 96.266 0)
+		(at 163.83 87.884 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3819,7 +3819,7 @@
 	)
 	(text "RESET"
 		(exclude_from_sim no)
-		(at 163.83 78.994 0)
+		(at 163.83 70.104 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4426,6 +4426,16 @@
 			(type default)
 		)
 		(uuid "4185c91c-ac00-4bf5-823b-829b85593250")
+	)
+	(wire
+		(pts
+			(xy 50.8 68.58) (xy 63.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41cb4389-73bd-4bcb-b24e-10e85702ebb7")
 	)
 	(wire
 		(pts
@@ -6308,6 +6318,16 @@
 		(uuid "bd260924-9a2a-42e8-8de5-798334d02072")
 	)
 	(label "3V3"
+		(at 63.5 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c23afe23-337a-4466-a9a6-561cdd9d7a97")
+	)
+	(label "3V3"
 		(at 64.77 144.78 0)
 		(effects
 			(font
@@ -6559,7 +6579,7 @@
 		(uuid "c61d1bff-e8cc-4ffe-888e-724abb27b879")
 	)
 	(hierarchical_label "5V"
-		(shape output)
+		(shape input)
 		(at 50.8 76.2 180)
 		(effects
 			(font
@@ -6568,6 +6588,17 @@
 			(justify right)
 		)
 		(uuid "d363cdd5-3ace-491a-bb8f-e6b1a7703466")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 50.8 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "efe725df-1eaa-4163-94a6-2ea24241193d")
 	)
 	(symbol
 		(lib_id "emberone:W25Q16JVUXIQ_TR")
