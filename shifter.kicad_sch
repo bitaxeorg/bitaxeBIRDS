@@ -1186,7 +1186,7 @@
 		)
 		(uuid "3a637762-1aa0-4cc6-a378-c5ed0db6d795")
 	)
-	(hierarchical_label "GND1"
+	(hierarchical_label "GND_H"
 		(shape passive)
 		(at 80.01 55.88 180)
 		(effects
@@ -1208,7 +1208,7 @@
 		)
 		(uuid "62449b72-55c9-480d-837d-508cfb071043")
 	)
-	(hierarchical_label "GND0"
+	(hierarchical_label "GND_L"
 		(shape passive)
 		(at 81.28 119.38 180)
 		(effects
@@ -1305,7 +1305,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b14a72c-370a-48f6-9134-4f3a189c25ca")
-		(property "Reference" "R33"
+		(property "Reference" "R35"
 			(at 102.87 111.76 0)
 			(effects
 				(font
@@ -1354,6 +1354,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PARTNO" "RC0402JR-071KL"
@@ -1362,6 +1363,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1373,15 +1375,15 @@
 		(instances
 			(project "bitaxeBIRDS"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/77e107fa-f35d-45bb-bf6d-758e10cfffbd"
-					(reference "R33")
+					(reference "R35")
 					(unit 1)
 				)
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/7d89e220-d1ae-4c07-8d25-5bbe4d704970"
-					(reference "R33")
+					(reference "R47")
 					(unit 1)
 				)
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/8201832f-9551-4969-84e2-32187e0075ba"
-					(reference "R33")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -1488,11 +1490,11 @@
 					(unit 1)
 				)
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/7d89e220-d1ae-4c07-8d25-5bbe4d704970"
-					(reference "D4")
+					(reference "D12")
 					(unit 1)
 				)
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/8201832f-9551-4969-84e2-32187e0075ba"
-					(reference "D4")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -1508,7 +1510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44a1a7a9-bd5b-484f-a55b-9dfd1c03d620")
-		(property "Reference" "C180"
+		(property "Reference" "C142"
 			(at 190.5 91.4335 0)
 			(effects
 				(font
@@ -1559,6 +1561,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PARTNO" "GRM155R71H102KA01D"
@@ -1567,6 +1570,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1578,15 +1582,15 @@
 		(instances
 			(project "bitaxeBIRDS"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/77e107fa-f35d-45bb-bf6d-758e10cfffbd"
-					(reference "C180")
+					(reference "C142")
 					(unit 1)
 				)
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/7d89e220-d1ae-4c07-8d25-5bbe4d704970"
-					(reference "C180")
+					(reference "C144")
 					(unit 1)
 				)
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/8201832f-9551-4969-84e2-32187e0075ba"
-					(reference "C180")
+					(reference "C143")
 					(unit 1)
 				)
 			)
@@ -1601,7 +1605,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52e5e291-6f3b-4d34-891a-6ce1cca6abe3")
-		(property "Reference" "R38"
+		(property "Reference" "R40"
 			(at 197.866 68.326 90)
 			(effects
 				(font
@@ -1650,6 +1654,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PARTNO" "RC0402JR-071KL"
@@ -1658,6 +1663,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1669,15 +1675,15 @@
 		(instances
 			(project "bitaxeBIRDS"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/77e107fa-f35d-45bb-bf6d-758e10cfffbd"
-					(reference "R38")
+					(reference "R40")
 					(unit 1)
 				)
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/7d89e220-d1ae-4c07-8d25-5bbe4d704970"
-					(reference "R38")
+					(reference "R52")
 					(unit 1)
 				)
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/8201832f-9551-4969-84e2-32187e0075ba"
-					(reference "R38")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -1784,11 +1790,11 @@
 					(unit 1)
 				)
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/7d89e220-d1ae-4c07-8d25-5bbe4d704970"
-					(reference "D1")
+					(reference "D9")
 					(unit 1)
 				)
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/8201832f-9551-4969-84e2-32187e0075ba"
-					(reference "D1")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -1804,7 +1810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79ba4934-f310-4055-937d-05a6cc08b428")
-		(property "Reference" "R34"
+		(property "Reference" "R36"
 			(at 120.65 91.186 0)
 			(effects
 				(font
@@ -1855,6 +1861,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PARTNO" "RC0402JR-071KL"
@@ -1863,6 +1870,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1874,15 +1882,15 @@
 		(instances
 			(project "bitaxeBIRDS"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/77e107fa-f35d-45bb-bf6d-758e10cfffbd"
-					(reference "R34")
+					(reference "R36")
 					(unit 1)
 				)
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/7d89e220-d1ae-4c07-8d25-5bbe4d704970"
-					(reference "R34")
+					(reference "R48")
 					(unit 1)
 				)
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/8201832f-9551-4969-84e2-32187e0075ba"
-					(reference "R34")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -1989,11 +1997,11 @@
 					(unit 1)
 				)
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/7d89e220-d1ae-4c07-8d25-5bbe4d704970"
-					(reference "D3")
+					(reference "D11")
 					(unit 1)
 				)
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/8201832f-9551-4969-84e2-32187e0075ba"
-					(reference "D3")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -2008,7 +2016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5dd8cf9-4ea9-40aa-9a96-35deef49a845")
-		(property "Reference" "R35"
+		(property "Reference" "R37"
 			(at 145.034 66.04 0)
 			(effects
 				(font
@@ -2059,6 +2067,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PARTNO" "RC0402JR-071KL"
@@ -2067,6 +2076,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2078,15 +2088,15 @@
 		(instances
 			(project "bitaxeBIRDS"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/77e107fa-f35d-45bb-bf6d-758e10cfffbd"
-					(reference "R35")
+					(reference "R37")
 					(unit 1)
 				)
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/7d89e220-d1ae-4c07-8d25-5bbe4d704970"
-					(reference "R35")
+					(reference "R49")
 					(unit 1)
 				)
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/8201832f-9551-4969-84e2-32187e0075ba"
-					(reference "R35")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -2193,11 +2203,11 @@
 					(unit 1)
 				)
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/7d89e220-d1ae-4c07-8d25-5bbe4d704970"
-					(reference "D2")
+					(reference "D10")
 					(unit 1)
 				)
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/8201832f-9551-4969-84e2-32187e0075ba"
-					(reference "D2")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2212,7 +2222,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6de144e-d6c0-4d85-b7b8-6c28e9f51506")
-		(property "Reference" "R36"
+		(property "Reference" "R38"
 			(at 167.894 66.04 0)
 			(effects
 				(font
@@ -2263,6 +2273,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PARTNO" "RC0402JR-071KL"
@@ -2271,6 +2282,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2282,15 +2294,15 @@
 		(instances
 			(project "bitaxeBIRDS"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/77e107fa-f35d-45bb-bf6d-758e10cfffbd"
-					(reference "R36")
+					(reference "R38")
 					(unit 1)
 				)
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/7d89e220-d1ae-4c07-8d25-5bbe4d704970"
-					(reference "R36")
+					(reference "R50")
 					(unit 1)
 				)
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/8201832f-9551-4969-84e2-32187e0075ba"
-					(reference "R36")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -2305,7 +2317,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d45a0d21-13dc-442a-b13c-9229e7624bf4")
-		(property "Reference" "R37"
+		(property "Reference" "R39"
 			(at 198.12 50.8 90)
 			(effects
 				(font
@@ -2354,6 +2366,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PARTNO" "RC0402JR-071KL"
@@ -2362,6 +2375,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2373,15 +2387,15 @@
 		(instances
 			(project "bitaxeBIRDS"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/77e107fa-f35d-45bb-bf6d-758e10cfffbd"
-					(reference "R37")
+					(reference "R39")
 					(unit 1)
 				)
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/7d89e220-d1ae-4c07-8d25-5bbe4d704970"
-					(reference "R37")
+					(reference "R51")
 					(unit 1)
 				)
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/8201832f-9551-4969-84e2-32187e0075ba"
-					(reference "R37")
+					(reference "R45")
 					(unit 1)
 				)
 			)
