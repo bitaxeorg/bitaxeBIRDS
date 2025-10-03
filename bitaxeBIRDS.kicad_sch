@@ -1519,6 +1519,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 81.28 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fbc22fd8-f611-49d8-9311-0a009fc47cad")
 		)
@@ -1578,6 +1587,15 @@
 			)
 		)
 		(property "Description" "Heatsink"
+			(at 121.92 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 121.92 179.07 0)
 			(effects
 				(font
@@ -1665,6 +1683,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 81.28 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e1667e8-6bd5-47cb-bc34-6d796de5e393")
 		)
@@ -1725,6 +1752,15 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 81.28 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 81.28 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,6 +1860,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 50.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "85569538-4001-4f95-a5d8-99ed0c96dddb")
 		)
@@ -1900,6 +1945,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 44.45 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
@@ -1957,6 +2011,15 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 81.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 81.28 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2031,6 +2094,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 44.45 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
@@ -2095,6 +2167,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 44.45 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
@@ -2151,6 +2232,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 44.45 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 44.45 165.1 0)
 			(effects
 				(font

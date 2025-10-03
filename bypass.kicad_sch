@@ -674,6 +674,15 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 175.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "130d1a66-6811-43e7-b15b-32a15d0b289b")
 		)
@@ -782,6 +791,15 @@
 			)
 		)
 		(property "PARTNO" "0402X104K100CT"
+			(at 119.38 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 119.38 82.55 0)
 			(effects
 				(font
@@ -931,6 +949,15 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 166.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3375ad69-763e-40b5-94c6-00fc98312dcd")
 		)
@@ -1063,6 +1090,15 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 142.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3ac6a75b-b442-4fb4-8679-f6bd9d4d41a8")
 		)
@@ -1171,6 +1207,15 @@
 			)
 		)
 		(property "PARTNO" "0402X104K100CT"
+			(at 134.62 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 134.62 82.55 0)
 			(effects
 				(font
@@ -1320,6 +1365,15 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 157.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "33d5bbeb-6b0a-435b-9d8e-fc5cca70748b")
 		)
@@ -1452,6 +1506,15 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 149.86 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8aef5722-c548-4da7-ab51-74bf143de2b8")
 		)
@@ -1560,6 +1623,15 @@
 			)
 		)
 		(property "PARTNO" "0402X104K100CT"
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 127 82.55 0)
 			(effects
 				(font

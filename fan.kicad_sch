@@ -2154,6 +2154,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 80.01 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "867858ad-3c36-4969-8994-91ce011b0839")
 		)
@@ -2215,6 +2224,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 165.1 110.49 0)
 			(effects
 				(font
@@ -2302,6 +2320,15 @@
 		)
 		(property "PARTNO" "EMC2103-4-AP-TR"
 			(at 132.08 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 132.08 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,6 +2468,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c5af5e81-6c2f-44bf-bf3a-45779f69421c")
 		)
@@ -2520,6 +2556,15 @@
 			)
 		)
 		(property "PARTNO" "RC0402JR-0710KL"
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 165.1 93.98 0)
 			(effects
 				(font
@@ -2616,6 +2661,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 240.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b7992896-d6ee-46be-ab66-3786717453ee")
 		)
@@ -2695,6 +2749,15 @@
 			)
 		)
 		(property "DK" "490-1297-1-ND"
+			(at 90.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 90.17 107.95 0)
 			(effects
 				(font
@@ -2784,6 +2847,15 @@
 			)
 		)
 		(property "PARTNO" "0470531000"
+			(at 260.35 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 260.35 106.68 0)
 			(effects
 				(font
@@ -2885,6 +2957,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 80.01 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "24f95f76-a477-43a4-b960-950de0319156")
 		)
@@ -2965,6 +3046,15 @@
 			)
 		)
 		(property "PARTNO" "RC0402FR-075K6L"
+			(at 219.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 219.71 93.98 0)
 			(effects
 				(font
@@ -3061,6 +3151,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 111.76 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd1041f7-7f66-4ae9-aec2-a634bdbd2f87")
 		)
@@ -3149,6 +3248,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 231.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9fb761d1-962a-4cb0-a38c-7b6b3bb8ed90")
 		)
@@ -3229,6 +3337,15 @@
 		)
 		(property "PARTNO" "RC0402JR-070RL"
 			(at 80.01 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 80.01 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,6 +3448,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 228.6 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "989ea682-453e-4267-a892-023b110c8f31")
 		)
@@ -3411,6 +3537,15 @@
 		)
 		(property "PARTNO" "RC0402JR-070RL"
 			(at 80.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 80.01 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)

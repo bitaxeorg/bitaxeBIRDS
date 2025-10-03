@@ -1,0 +1,136 @@
+(footprint "DIODE_DLLFSD01LPH4-7B_DIO"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "DLLFSD01LPH4-7B ")
+	(property "Reference" "REF**"
+		(at -0.168 -1.332 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b44e7e52-9a21-40a6-9f7d-c7fc069bf739")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DIODE_DLLFSD01LPH4-7B_DIO"
+		(at 0.047 3.125 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "397c1863-5155-4657-a9e9-3f7273b0157c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f712bc0-0d70-4858-ad3b-b73317ed18ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13fee939-bb24-4b2b-93f5-6dfc09d7d834")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.604 -0.373)
+		(end 0.607 0.378)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "58d9456d-e232-4274-a115-0d1b156e999c")
+	)
+	(fp_circle
+		(center -0.708 0.007)
+		(end -0.6318 0.007)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6c3b8e79-10a8-40dd-aaa2-2016cd364950")
+	)
+	(fp_rect
+		(start -0.7874 -0.5969)
+		(end 0.7874 0.5969)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "31369f98-327a-47b1-9f20-f2a93b15062f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.0762 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2a71dc35-09bd-4a40-a802-55ccafe8fd98")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.047 1.624 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "693960f9-66b9-4e93-8ff1-e67e0f15c82d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A" smd rect
+		(at 0.347599 0)
+		(size 0.3048 0.5588)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "50c96988-c5d6-487c-b9f6-637eec4722f8")
+	)
+	(pad "K" smd rect
+		(at -0.347599 0)
+		(size 0.3048 0.5588)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fb7b54c6-db4b-4149-a3a2-9acddced1764")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/DIODE_DLLFSD01LPH4-7B_DIO.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

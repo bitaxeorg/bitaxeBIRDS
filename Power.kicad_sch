@@ -4516,6 +4516,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 195.58 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2283d898-4686-4a77-b3b1-ecd77205e399")
 		)
@@ -4609,6 +4618,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser" ""
+			(at 219.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4706,6 +4724,15 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 62.23 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a1b1bd1-ffbb-4d17-ba6e-3f6d368b7fd2")
 		)
@@ -4786,6 +4813,15 @@
 		)
 		(property "DK" "311-20.0KLRCT-ND"
 			(at 52.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 52.07 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4888,6 +4924,15 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 120.65 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a717ba3-9241-434c-9bb0-c9a4b4254ca4")
 		)
@@ -4983,6 +5028,15 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0bb7c2e1-ed1a-4375-b226-258851784ef3")
 		)
@@ -5026,7 +5080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
 			(at 228.6 50.8 0)
 			(effects
 				(font
@@ -5045,6 +5099,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 223.52 50.8 0)
 			(effects
 				(font
@@ -5129,6 +5192,15 @@
 			)
 		)
 		(property "PARTNO" "TPSM861253RDXR"
+			(at 80.01 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 80.01 157.48 0)
 			(effects
 				(font
@@ -5239,6 +5311,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 114.3 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "592c4b7d-3e60-4751-9ec7-747425227ae8")
 		)
@@ -5282,7 +5363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
 			(at 67.31 77.47 0)
 			(effects
 				(font
@@ -5302,6 +5383,15 @@
 		)
 		(property "Description" "test point"
 			(at 67.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 67.31 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,7 +5438,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 92.71 43.18 0)
 			(effects
 				(font
@@ -5383,7 +5473,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "GRM32ER61E226KE15L"
+		(property "PARTNO" "TMK316BBJ226ML-T"
 			(at 92.71 43.18 0)
 			(effects
 				(font
@@ -5392,8 +5482,17 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "587-3246-1-ND"
 			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 92.71 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5496,6 +5595,15 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 104.14 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a9945ec7-d586-41c3-b389-c0225d78b0c4")
 		)
@@ -5589,6 +5697,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser" ""
+			(at 240.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5686,6 +5803,15 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 115.57 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6e90b7fd-c59e-49a9-bf47-9e06c6f2cfbd")
 		)
@@ -5749,6 +5875,15 @@
 		)
 		(property "Description" "test point"
 			(at 124.46 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 124.46 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5840,6 +5975,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 195.58 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "092f7633-0339-4d50-972f-f143c04a22c5")
 		)
@@ -5919,6 +6063,15 @@
 		)
 		(property "PARTNO" "TPS546D24ARVFR"
 			(at 139.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 139.7 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6111,6 +6264,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 161.29 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "83325c73-cbb0-41c7-a41a-0cb5be661d85")
 		)
@@ -6153,7 +6315,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 85.09 43.18 0)
 			(effects
 				(font
@@ -6188,7 +6350,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "GRM32ER61E226KE15L"
+		(property "PARTNO" "TMK316BBJ226ML-T"
 			(at 85.09 43.18 0)
 			(effects
 				(font
@@ -6197,8 +6359,17 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "587-3246-1-ND"
 			(at 85.09 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 85.09 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6293,6 +6464,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 71.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b43f814f-ac5d-45bf-931b-1d563a7c89c6")
 		)
@@ -6379,6 +6559,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 181.61 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "937ace28-78c5-4267-9e3c-91c452c9e24e")
 		)
@@ -6421,7 +6610,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 77.47 43.18 0)
 			(effects
 				(font
@@ -6456,7 +6645,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "GRM32ER61E226KE15L"
+		(property "PARTNO" "TMK316BBJ226ML-T"
 			(at 77.47 43.18 0)
 			(effects
 				(font
@@ -6465,8 +6654,17 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "587-3246-1-ND"
 			(at 77.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 77.47 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6569,6 +6767,15 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 229.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6fbe014c-d2f7-43e4-8b2f-5a08c91d67be")
 		)
@@ -6664,6 +6871,15 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 38.1 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6e2d8dc-11f4-4d99-8820-99de8540de55")
 		)
@@ -6751,6 +6967,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 158.75 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ad2ebf0-4116-4680-8469-144eb185abfc")
 		)
@@ -6830,6 +7055,15 @@
 			)
 		)
 		(property "DK" "RHM1KTR-ND"
+			(at 161.29 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 161.29 62.23 0)
 			(effects
 				(font
@@ -6933,6 +7167,15 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 209.55 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e43debb-dafd-4403-8eff-28c3fbb09048")
 		)
@@ -6975,7 +7218,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 199.39 62.23 0)
 			(effects
 				(font
@@ -7002,7 +7245,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "GRM32ER61C476KE15L"
+		(property "PARTNO" "GRM31CR61A476ME15L"
 			(at 199.39 62.23 0)
 			(effects
 				(font
@@ -7011,7 +7254,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-5528-1-ND"
 			(at 199.39 62.23 0)
 			(effects
 				(font
@@ -7020,7 +7263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "10V"
 			(at 203.454 58.928 0)
 			(effects
 				(font
@@ -7123,6 +7366,15 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 107.95 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f47b4591-639d-4f02-80b5-c431e4a2cd50")
 		)
@@ -7166,7 +7418,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
 			(at 257.81 78.74 0)
 			(effects
 				(font
@@ -7186,6 +7438,15 @@
 		)
 		(property "Description" "test point"
 			(at 257.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 257.81 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7269,6 +7530,15 @@
 			)
 		)
 		(property "DK" "311-10KJRCT-ND"
+			(at 87.63 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 87.63 82.55 0)
 			(effects
 				(font
@@ -7372,6 +7642,15 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 100.33 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f7d6ff7c-e06b-4d3d-8bc8-f8e7d3332900")
 		)
@@ -7459,6 +7738,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 104.14 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1760dcc3-11c9-4728-b716-7dfffb0a4672")
 		)
@@ -7538,6 +7826,15 @@
 			)
 		)
 		(property "DK" "311-10KJRCT-ND"
+			(at 58.42 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 58.42 160.02 0)
 			(effects
 				(font
@@ -7641,6 +7938,15 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 161.29 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f776781-2e26-4bc7-88cd-6e7593fe76bb")
 		)
@@ -7683,7 +7989,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 69.85 43.18 0)
 			(effects
 				(font
@@ -7718,7 +8024,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "GRM32ER61E226KE15L"
+		(property "PARTNO" "TMK316BBJ226ML-T"
 			(at 69.85 43.18 0)
 			(effects
 				(font
@@ -7727,8 +8033,17 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "587-3246-1-ND"
 			(at 69.85 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 69.85 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7831,6 +8146,15 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 106.68 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "446dffcf-0c66-46f8-bc9e-b2cf9d41b878")
 		)
@@ -7924,6 +8248,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser" ""
+			(at 97.79 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

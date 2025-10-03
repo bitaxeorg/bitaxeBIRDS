@@ -6697,6 +6697,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 86.36 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c4fed5aa-bf5d-4cb4-a713-8ff42c27bfa2")
 		)
@@ -6797,6 +6806,15 @@
 		)
 		(property "DK" "EG4388CT-ND"
 			(at 163.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 163.83 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6907,6 +6925,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 184.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7696e620-3faa-477f-b57a-274171357968")
 		)
@@ -7005,6 +7032,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 64.77 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 64.77 153.67 0)
 			(effects
 				(font
@@ -7128,6 +7164,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 96.52 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "877cafbf-fd97-4c33-91a6-1e5b5f496e35")
 		)
@@ -7232,6 +7277,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 201.93 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 201.93 85.09 90)
 			(effects
 				(font
@@ -7345,6 +7399,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 165.1 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59aee7d9-c445-4446-9a0d-eb1c1140d386")
 		)
@@ -7433,6 +7496,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 186.69 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 186.69 204.47 0)
 			(effects
 				(font
@@ -7556,6 +7628,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 90.17 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49e67595-23fc-4e9f-ade4-68ca6819175a")
 		)
@@ -7663,6 +7744,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 200.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 200.66 53.34 0)
 			(effects
 				(font
@@ -7786,6 +7876,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 212.09 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "767fad4e-d6a8-465d-a72a-e084dd2f78cc")
 		)
@@ -7881,6 +7980,15 @@
 			)
 		)
 		(property "PARTNO" "SK6812SIDE-A-RVS"
+			(at 295.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 295.91 72.39 0)
 			(effects
 				(font
@@ -8010,6 +8118,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 334.01 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d17584b5-2c94-4151-a48f-e3068cc35202")
 		)
@@ -8125,6 +8242,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 276.86 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40d89536-0914-4988-addc-730e91fd8833")
 		)
@@ -8231,6 +8357,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 200.66 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c2b147b-56d2-4518-870a-547d2dce9180")
 		)
@@ -8318,6 +8453,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 163.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "18c8ef3f-7b71-456a-bdcf-2ca7334a16ac")
 		)
@@ -8394,6 +8538,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 130.81 -48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "41a16f22-aaed-4cd8-ab2d-b61449943502")
 		)
@@ -8433,7 +8586,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "SDA"
 			(at 278.765 109.2199 90)
 			(effects
 				(font
@@ -8443,7 +8596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
 			(at 284.48 113.03 0)
 			(effects
 				(font
@@ -8471,6 +8624,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 284.48 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 284.48 107.95 90)
 			(effects
 				(font
@@ -8571,6 +8733,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 85.09 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 85.09 209.55 0)
 			(effects
 				(font
@@ -8698,6 +8869,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 182.88 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f6b766c7-e735-4606-9124-ef8ad9124192")
 		)
@@ -8805,6 +8985,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 311.15 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 311.15 53.34 0)
 			(effects
 				(font
@@ -8928,6 +9117,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 288.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "72c585ce-e665-4bdd-b508-a0433b4bccfd")
 		)
@@ -9017,6 +9215,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 284.48 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 284.48 102.87 0)
 			(effects
 				(font
@@ -9137,6 +9344,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 254 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "feafe445-b733-41d9-a16c-4cc73d3e0cc5")
 		)
@@ -9170,7 +9386,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "SCL"
 			(at 296.545 106.6801 90)
 			(effects
 				(font
@@ -9180,7 +9396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
 			(at 290.83 102.87 0)
 			(effects
 				(font
@@ -9208,6 +9424,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 290.83 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 290.83 107.95 90)
 			(effects
 				(font
@@ -9327,6 +9552,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 224.79 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21514bde-a34a-4b34-b324-de381c8b8ad7")
 		)
@@ -9426,6 +9660,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 114.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 114.3 91.44 0)
 			(effects
 				(font
@@ -9564,6 +9807,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 300.99 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "603242bb-67fa-45bc-a443-17adc1104c95")
 		)
@@ -9670,6 +9922,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 265.43 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 265.43 53.34 0)
 			(effects
 				(font
@@ -9793,6 +10054,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 322.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f88e7234-5174-4d62-8fdc-b5b2ddc946e5")
 		)
@@ -9882,6 +10152,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 290.83 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 290.83 102.87 0)
 			(effects
 				(font
@@ -9994,6 +10273,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 201.93 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 201.93 82.55 90)
 			(effects
 				(font
@@ -10117,6 +10405,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 299.72 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9d7fd0e-0e8e-4a1d-b318-a2446b4659ae")
 		)
@@ -10214,6 +10511,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 236.22 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 236.22 113.03 0)
 			(effects
 				(font
@@ -10490,6 +10796,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 81.28 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc9fb9a0-137e-45f1-8e5b-ada88c29fa57")
 		)
@@ -10597,6 +10912,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 125.73 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 125.73 171.45 0)
 			(effects
 				(font
@@ -10713,6 +11037,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 73.66 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 73.66 215.9 0)
 			(effects
 				(font
