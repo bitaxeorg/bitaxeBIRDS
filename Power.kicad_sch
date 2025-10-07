@@ -2130,6 +2130,12 @@
 		(uuid "8bf47eb0-d121-488f-a9be-f74916857f40")
 	)
 	(junction
+		(at 85.09 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d29c9e3-436b-4449-af99-75d61056475d")
+	)
+	(junction
 		(at 121.92 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3437,7 +3443,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 72.39) (xy 125.73 72.39)
+			(xy 71.12 72.39) (xy 85.09 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4095,6 +4101,16 @@
 		)
 		(uuid "fde5b9f5-bd3c-4151-a3cc-615db2a29ebf")
 	)
+	(wire
+		(pts
+			(xy 85.09 72.39) (xy 125.73 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe4b0fcf-bdb1-43e1-b98c-a89a651c7dd2")
+	)
 	(label "GND"
 		(at 71.12 92.71 0)
 		(effects
@@ -4366,6 +4382,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "PWR_EN"
+		(shape input)
+		(at 67.31 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0518cb15-4376-47b2-8990-3be8dc657616")
 	)
 	(hierarchical_label "SMB_ALRT"
 		(shape output)
@@ -5337,8 +5364,8 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 67.31 72.39 90)
-		(mirror x)
+		(at 85.09 72.39 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5346,7 +5373,7 @@
 		(dnp no)
 		(uuid "2c84def7-24ae-40c0-b58f-f358163bc53f")
 		(property "Reference" "TP1"
-			(at 62.23 72.39 90)
+			(at 85.09 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +5382,7 @@
 			)
 		)
 		(property "Value" "PWR_EN"
-			(at 61.976 74.676 90)
+			(at 82.804 67.056 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,7 +5391,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
-			(at 67.31 77.47 0)
+			(at 80.01 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,7 +5400,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 77.47 0)
+			(at 80.01 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +5409,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 67.31 72.39 0)
+			(at 85.09 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5391,7 +5418,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 67.31 72.39 90)
+			(at 85.09 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)

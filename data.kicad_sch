@@ -4205,7 +4205,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 92.71) (xy 210.82 92.71)
+			(xy 193.04 92.71) (xy 210.82 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4745,7 +4745,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 92.71) (xy 168.91 92.71)
+			(xy 185.42 92.71) (xy 168.91 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5993,6 +5993,16 @@
 		)
 		(uuid "1ca504fc-2289-4b62-82fe-4c7d757c8876")
 	)
+	(label "MCU_RESET"
+		(at 171.45 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29280d30-5a62-4e03-8678-b66b69b580fb")
+	)
 	(label "GND"
 		(at 80.01 222.25 0)
 		(effects
@@ -6242,6 +6252,16 @@
 			(justify left bottom)
 		)
 		(uuid "78895f4c-7a5f-4681-9891-729ed20634dc")
+	)
+	(label "MCU_BOOT"
+		(at 171.45 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8090391b-c35c-4a24-9a55-74b9f1edd654")
 	)
 	(label "1V1"
 		(at 233.68 45.72 0)
@@ -8773,7 +8793,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 182.88 92.71 270)
+		(at 189.23 92.71 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8782,7 +8802,7 @@
 		(dnp no)
 		(uuid "88949f16-c1d2-46cc-a1f8-0b3a47ec18e6")
 		(property "Reference" "R18"
-			(at 187.706 91.44 90)
+			(at 194.056 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8790,7 +8810,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 179.07 91.44 90)
+			(at 185.42 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8798,7 +8818,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 175.26 92.71 0)
+			(at 181.61 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8807,7 +8827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 92.71 0)
+			(at 179.07 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8816,7 +8836,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 92.71 0)
+			(at 189.23 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8825,7 +8845,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 170.18 92.71 0)
+			(at 176.53 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8834,7 +8854,7 @@
 			)
 		)
 		(property "PARTNO" "RC0402FR-071KL"
-			(at 182.88 92.71 0)
+			(at 189.23 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8843,7 +8863,7 @@
 			)
 		)
 		(property "DK" "311-1.00KLRCT-ND"
-			(at 182.88 92.71 0)
+			(at 189.23 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8852,7 +8872,7 @@
 			)
 		)
 		(property "LCSC" "C106235"
-			(at 182.88 92.71 0)
+			(at 189.23 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8861,7 +8881,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 182.88 92.71 90)
+			(at 189.23 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8870,7 +8890,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 182.88 92.71 90)
+			(at 189.23 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
