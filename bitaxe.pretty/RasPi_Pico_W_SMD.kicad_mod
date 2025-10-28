@@ -1014,46 +1014,6 @@
 		(layer "F.Paste")
 		(uuid "22e978ab-202c-4d24-b471-83320de20d85")
 	)
-	(fp_line
-		(start -6.5 17)
-		(end -6.5 27.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "461f4546-2b5c-46d3-b0f4-b3606df002f7")
-	)
-	(fp_line
-		(start 6.5 17)
-		(end -6.5 17)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "c20c7387-f6f8-4166-a77d-4ba15db92b9c")
-	)
-	(fp_line
-		(start 6.5 17)
-		(end 6.5 27.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "385b254a-1350-4239-aafc-099bc0c8973b")
-	)
-	(fp_line
-		(start 6.5 27.5)
-		(end -6.5 27.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "8d4ba704-3ec7-436f-809a-46c83aff361d")
-	)
 	(fp_poly
 		(pts
 			(xy 10.5 25.5) (xy -10.5 25.5) (xy -10.5 -25.5) (xy -4 -25.5) (xy -4 -27) (xy 4 -27) (xy 4 -25.5)

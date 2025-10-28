@@ -603,7 +603,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 175.26 82.55 0)
 			(effects
 				(font
@@ -630,7 +630,7 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "6.3V"
+		(property "voltage" "4V"
 			(at 179.578 85.852 0)
 			(effects
 				(font
@@ -639,7 +639,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL31A107MQHNNNE"
+		(property "PARTNO" "GRM21BR60G107ME11K"
 			(at 175.26 82.55 0)
 			(effects
 				(font
@@ -648,7 +648,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1782-1-ND"
+		(property "DK" "490-GRM21BR60G107ME11KCT-ND"
 			(at 175.26 82.55 0)
 			(effects
 				(font
@@ -878,7 +878,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 166.37 82.55 0)
 			(effects
 				(font
@@ -905,7 +905,7 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "6.3V"
+		(property "voltage" "4V"
 			(at 170.688 85.852 0)
 			(effects
 				(font
@@ -914,7 +914,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL31A107MQHNNNE"
+		(property "PARTNO" "GRM21BR60G107ME11K"
 			(at 166.37 82.55 0)
 			(effects
 				(font
@@ -923,7 +923,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1782-1-ND"
+		(property "DK" "490-GRM21BR60G107ME11KCT-ND"
 			(at 166.37 82.55 0)
 			(effects
 				(font
@@ -1294,7 +1294,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 157.48 82.55 0)
 			(effects
 				(font
@@ -1321,7 +1321,7 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "6.3V"
+		(property "voltage" "4V"
 			(at 161.798 85.852 0)
 			(effects
 				(font
@@ -1330,7 +1330,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL31A107MQHNNNE"
+		(property "PARTNO" "GRM21BR60G107ME11K"
 			(at 157.48 82.55 0)
 			(effects
 				(font
@@ -1339,7 +1339,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1782-1-ND"
+		(property "DK" "490-GRM21BR60G107ME11KCT-ND"
 			(at 157.48 82.55 0)
 			(effects
 				(font

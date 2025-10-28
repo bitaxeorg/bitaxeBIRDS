@@ -12375,7 +12375,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TRP"
+		(property "Value" "TT"
 			(at 314.198 79.756 90)
 			(effects
 				(font
@@ -13199,7 +13199,7 @@
 				)
 			)
 		)
-		(property "Value" "SDA"
+		(property "Value" "TX"
 			(at 83.185 76.2001 90)
 			(effects
 				(font
@@ -13367,7 +13367,7 @@
 				)
 			)
 		)
-		(property "Value" "SDA"
+		(property "Value" "TT"
 			(at 83.185 81.2801 90)
 			(effects
 				(font
@@ -14803,7 +14803,7 @@
 				)
 			)
 		)
-		(property "Value" "SDA"
+		(property "Value" "GND"
 			(at 70.485 85.0901 90)
 			(effects
 				(font
@@ -14887,7 +14887,7 @@
 				)
 			)
 		)
-		(property "Value" "SDA"
+		(property "Value" "RX"
 			(at 83.185 78.7401 90)
 			(effects
 				(font
@@ -16424,7 +16424,7 @@
 				)
 			)
 		)
-		(property "Value" "SDA"
+		(property "Value" "RST"
 			(at 83.185 73.6601 90)
 			(effects
 				(font
