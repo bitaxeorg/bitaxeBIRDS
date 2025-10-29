@@ -6206,6 +6206,12 @@
 		(uuid "14d50863-960c-4929-ae8c-e8a0a1e61022")
 	)
 	(junction
+		(at 287.02 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1511172c-a368-4713-b506-cd23192da202")
+	)
+	(junction
 		(at 351.79 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6392,6 +6398,12 @@
 		(uuid "79eee10b-bd61-4f4e-b2e2-b0252960ff4b")
 	)
 	(junction
+		(at 287.02 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8386e6dd-7720-4113-9714-790e6bfd4444")
+	)
+	(junction
 		(at 477.52 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6576,6 +6588,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db4c40fe-5ec2-4342-b0f3-b7659295d7b1")
+	)
+	(junction
+		(at 287.02 293.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edbd5898-3644-4b41-9ae0-1a90e75e5bb2")
 	)
 	(junction
 		(at 287.02 140.97)
@@ -6887,7 +6905,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 132.08) (xy 287.02 140.97)
+			(xy 287.02 132.08) (xy 287.02 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7327,6 +7345,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 215.9) (xy 287.02 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "383ab97d-4113-43b3-91ad-bda8e0c181ae")
+	)
+	(wire
+		(pts
 			(xy 344.17 199.39) (xy 367.03 199.39)
 		)
 		(stroke
@@ -7424,6 +7452,16 @@
 			(type default)
 		)
 		(uuid "417b3014-4d60-457a-81e8-7337155425d7")
+	)
+	(wire
+		(pts
+			(xy 287.02 293.37) (xy 287.02 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c87725-0155-4d8f-9cc1-000cf06dd6b8")
 	)
 	(wire
 		(pts
@@ -8527,7 +8565,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 213.36) (xy 287.02 223.52)
+			(xy 287.02 213.36) (xy 287.02 215.9)
 		)
 		(stroke
 			(width 0)
@@ -8724,6 +8762,16 @@
 			(type default)
 		)
 		(uuid "b0a311bf-06ca-4043-9ae6-0b0f2a6d8ff8")
+	)
+	(wire
+		(pts
+			(xy 287.02 134.62) (xy 287.02 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a8f590-dd87-4026-aaf3-27b47f27c5f4")
 	)
 	(wire
 		(pts
@@ -9587,7 +9635,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 290.83) (xy 287.02 298.45)
+			(xy 287.02 290.83) (xy 287.02 293.37)
 		)
 		(stroke
 			(width 0)
@@ -12707,6 +12755,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 287.02 293.37 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b40460e-a829-45e1-8230-4708ba2e17ee")
+		(property "Reference" "TP58"
+			(at 282.702 293.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D1"
+			(at 281.686 291.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
+			(at 287.02 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 287.02 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 287.02 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
+			(at 287.02 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 287.02 293.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07b6e07d-8a34-4944-af28-7a8bc6d5969b")
+		)
+		(instances
+			(project "bitaxeBIRDS"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 157.48 77.47 0)
 		(unit 1)
@@ -13609,6 +13742,91 @@
 			(project "bitaxeBIRDS"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 287.02 215.9 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61a96701-d730-4d77-9b80-298399e29031")
+		(property "Reference" "TP59"
+			(at 282.702 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D2"
+			(at 281.686 213.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
+			(at 287.02 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 287.02 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 287.02 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
+			(at 287.02 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 287.02 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25b3b042-201c-4acd-8acb-7bbbc08a1ff8")
+		)
+		(instances
+			(project "bitaxeBIRDS"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP59")
 					(unit 1)
 				)
 			)
@@ -15658,6 +15876,91 @@
 			(project "bitaxeBIRDS"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "TP30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 287.02 134.62 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8d127d7-ce89-4a01-87bb-cbbda9730cf9")
+		(property "Reference" "TP60"
+			(at 282.702 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D3"
+			(at 281.686 132.334 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
+			(at 287.02 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 287.02 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 287.02 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
+			(at 287.02 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 287.02 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7af9592c-3905-486f-ac36-e1946c28701d")
+		)
+		(instances
+			(project "bitaxeBIRDS"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP60")
 					(unit 1)
 				)
 			)
