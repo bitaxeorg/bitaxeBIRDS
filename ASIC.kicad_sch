@@ -6194,12 +6194,6 @@
 		(uuid "042353cb-97d3-47d5-b663-b0dd6e472db1")
 	)
 	(junction
-		(at 76.2 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06982b83-a76f-4cef-9f28-f919b61d551a")
-	)
-	(junction
 		(at 240.03 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6534,6 +6528,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be941057-886e-4fc7-b973-5c072781a713")
+	)
+	(junction
+		(at 76.2 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c162fec8-ca9e-4c6b-a97b-b8774c676a72")
 	)
 	(junction
 		(at 450.85 316.23)
@@ -7757,6 +7757,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 86.36) (xy 76.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7b2f01-18c4-43e9-ab66-7625c658df28")
+	)
+	(wire
+		(pts
 			(xy 267.97 311.15) (xy 259.08 311.15)
 		)
 		(stroke
@@ -8237,16 +8247,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 100.33) (xy 76.2 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "879e9806-1521-4f80-bc9f-9736455ad487")
-	)
-	(wire
-		(pts
 			(xy 361.95 158.75) (xy 379.73 158.75)
 		)
 		(stroke
@@ -8397,7 +8397,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 86.36) (xy 76.2 80.01)
+			(xy 76.2 80.01) (xy 76.2 86.36)
 		)
 		(stroke
 			(width 0)
@@ -12060,6 +12060,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 309.88 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cb03561-4302-4200-95fc-e6d6620c0dfb")
+		(property "Reference" "TP13"
+			(at 316.738 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RSTI"
+			(at 315.595 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 309.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 309.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 309.88 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 309.88 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "289e02f2-0fbe-47bd-b250-5cf7f9b37cba")
+		)
+		(instances
+			(project "bitaxeBIRDS"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 90.17 95.25 180)
 		(unit 1)
@@ -12359,99 +12443,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 309.88 77.47 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "361704da-98fc-435f-94f3-6cd35767966b")
-		(property "Reference" "TP14"
-			(at 314.198 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TT"
-			(at 314.198 79.756 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
-			(at 309.88 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 309.88 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 309.88 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 309.88 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 309.88 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 309.88 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5b469e2-3fa0-4895-838e-7056cb6f0775")
-		)
-		(instances
-			(project "bitaxeBIRDS"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 220.98 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12626,6 +12617,90 @@
 			(project "bitaxeBIRDS"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.9 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a0501ee-93e0-4872-b2b6-d804d87cfa51")
+		(property "Reference" "TP20"
+			(at 82.042 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RXI"
+			(at 83.185 78.7401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 88.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 88.9 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 88.9 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "337f75db-bbb6-457a-bbf0-a30351bcb74b")
+		)
+		(instances
+			(project "bitaxeBIRDS"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -13184,90 +13259,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 88.9 77.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "52478693-b14b-4b88-a5f0-f984c991d244")
-		(property "Reference" "TP17"
-			(at 82.042 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TX"
-			(at 83.185 76.2001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
-			(at 88.9 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 88.9 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 88.9 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3414f24c-879b-4e7d-a594-e68886f8e79d")
-		)
-		(instances
-			(project "bitaxeBIRDS"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 222.25 313.69 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13352,23 +13343,23 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 88.9 82.55 90)
+		(at 309.88 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "52dd9a52-2554-45e5-836f-ea5079c61636")
-		(property "Reference" "TP21"
-			(at 82.042 82.55 90)
+		(uuid "58c587d2-b312-4369-a65f-7121bf358a36")
+		(property "Reference" "TP14"
+			(at 316.738 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TT"
-			(at 83.185 81.2801 90)
+		(property "Value" "RXO"
+			(at 315.595 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13377,8 +13368,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
-			(at 88.9 77.47 0)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 309.88 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13387,7 +13378,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 77.47 0)
+			(at 309.88 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13396,7 +13387,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 82.55 0)
+			(at 309.88 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13405,7 +13396,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 88.9 82.55 90)
+			(at 309.88 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13414,7 +13405,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 88.9 82.55 90)
+			(at 309.88 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13423,12 +13414,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "29358181-bcd9-4a3d-aaa3-5ee093e21939")
+			(uuid "67ba5b45-bd92-43a8-b198-2f725f616417")
 		)
 		(instances
 			(project "bitaxeBIRDS"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "TP21")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -14527,99 +14518,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 309.88 85.09 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "81aed340-8f3b-4232-b7cb-d8f37f25995e")
-		(property "Reference" "TP11"
-			(at 314.198 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RX"
-			(at 314.198 87.376 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
-			(at 309.88 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 309.88 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 309.88 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 309.88 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 309.88 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 309.88 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0cbbec9-fd80-4843-b1ce-e9a379c6a53f")
-		)
-		(instances
-			(project "bitaxeBIRDS"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 243.84 313.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14788,174 +14686,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 76.2 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a2dafee-62f6-4b55-b462-9a8aa3289692")
-		(property "Reference" "TP22"
-			(at 69.342 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 70.485 85.0901 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
-			(at 76.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 76.2 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 76.2 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "538353bf-5d72-4eb2-91f7-af5df27f33ac")
-		)
-		(instances
-			(project "bitaxeBIRDS"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "TP22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 88.9 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ec6e196-7c57-4803-834f-72f70028e674")
-		(property "Reference" "TP20"
-			(at 82.042 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RX"
-			(at 83.185 78.7401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
-			(at 88.9 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 88.9 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 88.9 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "360c1ecf-a3d4-496e-ba77-07772654aed1")
-		)
-		(instances
-			(project "bitaxeBIRDS"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "TP20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 354.33 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15117,6 +14847,90 @@
 			(project "bitaxeBIRDS"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "TP34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.9 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9da44cf6-09ee-4001-8fef-480191a82fd5")
+		(property "Reference" "TP6"
+			(at 82.042 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RSTI"
+			(at 83.185 73.6601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 88.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 88.9 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 88.9 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71b70e95-4255-4e33-b9f8-e68734136305")
+		)
+		(instances
+			(project "bitaxeBIRDS"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -16409,23 +16223,23 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 88.9 74.93 90)
+		(at 309.88 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "ce9cc173-5dec-428e-8cbe-1075169b103d")
-		(property "Reference" "TP6"
-			(at 82.042 74.93 90)
+		(uuid "d3c8c20a-e2a2-43b6-b245-d7f6328588be")
+		(property "Reference" "TP12"
+			(at 316.738 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RST"
-			(at 83.185 73.6601 90)
+		(property "Value" "TXI"
+			(at 315.595 81.2799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16434,8 +16248,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
-			(at 88.9 69.85 0)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 309.88 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16444,7 +16258,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 69.85 0)
+			(at 309.88 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16453,7 +16267,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 74.93 0)
+			(at 309.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16462,7 +16276,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 88.9 74.93 90)
+			(at 309.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16471,7 +16285,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 88.9 74.93 90)
+			(at 309.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16480,12 +16294,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "52947c23-1124-4a3d-b621-563c8203dc66")
+			(uuid "5f49ce47-763a-40ab-8f4a-9300dc04e7f8")
 		)
 		(instances
 			(project "bitaxeBIRDS"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "TP6")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -16493,24 +16307,23 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 309.88 82.55 270)
+		(at 88.9 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "d662d2e5-7c99-4084-a3ba-0d05088607ea")
-		(property "Reference" "TP12"
-			(at 314.198 82.55 90)
+		(uuid "db7522b3-5566-4336-8d6a-5e0cf42f9f39")
+		(property "Reference" "TP21"
+			(at 82.042 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "RST"
-			(at 314.198 84.836 90)
+		(property "Value" "TTO"
+			(at 83.185 81.2801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16519,8 +16332,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
-			(at 309.88 87.63 0)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 88.9 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16529,7 +16342,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 309.88 87.63 0)
+			(at 88.9 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16537,8 +16350,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 309.88 82.55 0)
+		(property "Description" ""
+			(at 88.9 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16546,25 +16359,17 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 309.88 82.55 0)
+		(property "Field6" ""
+			(at 88.9 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 309.88 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Mouser" ""
-			(at 309.88 82.55 90)
+			(at 88.9 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16573,12 +16378,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "78fdfe83-c84b-4447-af76-0fc81844a611")
+			(uuid "89b565e3-d956-48fd-88bb-10b13440bcec")
 		)
 		(instances
 			(project "bitaxeBIRDS"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "TP12")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -16832,6 +16637,90 @@
 			(project "bitaxeBIRDS"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "A4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 76.2 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "df89cb3a-0ebd-4ede-a8ce-6b89ddc308e3")
+		(property "Reference" "TP22"
+			(at 69.342 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 70.485 85.0901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 76.2 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 76.2 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a3de225-e874-4338-90fb-3687e714586b")
+		)
+		(instances
+			(project "bitaxeBIRDS"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -17126,6 +17015,90 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 309.88 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea868b0c-0b7f-407c-9284-488ad68f6071")
+		(property "Reference" "TP11"
+			(at 316.738 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TTI"
+			(at 315.595 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 309.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 309.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 309.88 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 309.88 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bde6d69d-e766-4829-992b-eb0046713a9a")
+		)
+		(instances
+			(project "bitaxeBIRDS"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 487.68 316.23 270)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -17203,99 +17176,6 @@
 			(project "bitaxeBIRDS"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "TP18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 309.88 80.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "fae0a6bb-33dd-4502-be5a-dd3d2c8c6c94")
-		(property "Reference" "TP13"
-			(at 314.198 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TX"
-			(at 314.198 82.296 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
-			(at 309.88 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 309.88 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 309.88 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 309.88 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 309.88 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 309.88 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0586c36-e4e7-4729-860e-0f919afe7d48")
-		)
-		(instances
-			(project "bitaxeBIRDS"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -17548,6 +17428,90 @@
 			(project "bitaxeBIRDS"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.9 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe664ce0-b8a0-4ee4-b080-2979b2b5035e")
+		(property "Reference" "TP17"
+			(at 82.042 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TXO"
+			(at 83.185 76.2001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 88.9 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 88.9 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8cd3688-bca2-4e70-a6d6-ff18e000da1b")
+		)
+		(instances
+			(project "bitaxeBIRDS"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
