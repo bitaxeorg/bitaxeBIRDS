@@ -7,7 +7,7 @@
 	(title_block
 		(title "Bitaxe Intel Reference Design System")
 		(date "2025-10-01")
-		(rev "1300x")
+		(rev "1300xx")
 	)
 	(lib_symbols
 		(symbol "Mechanical:Fiducial"
@@ -1477,6 +1477,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 82.55 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
@@ -1542,6 +1551,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 121.92 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 121.92 179.07 0)
 			(effects
 				(font
@@ -1638,6 +1656,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 81.28 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e1667e8-6bd5-47cb-bc34-6d796de5e393")
 		)
@@ -1706,6 +1733,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 81.28 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 81.28 167.64 90)
 			(effects
 				(font
@@ -1815,6 +1851,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 50.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "85569538-4001-4f95-a5d8-99ed0c96dddb")
 		)
@@ -1900,6 +1945,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 44.45 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
@@ -1965,6 +2019,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 82.55 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 82.55 152.4 90)
 			(effects
 				(font
@@ -2046,6 +2109,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 44.45 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
@@ -2119,6 +2191,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 44.45 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
@@ -2184,6 +2265,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 44.45 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 44.45 165.1 0)
 			(effects
 				(font

@@ -60,6 +60,10 @@
       ],
       "drc_exclusions": [
         [
+          "copper_sliver|130415206|143457057|00000000-0000-0000-0000-000000000000|F.Cu",
+          ""
+        ],
+        [
           "courtyards_overlap|104455000|31085935|807cffa3-6378-4f55-a803-52e9bc2de26a|aa182967-dc15-4423-b890-261f72611492",
           ""
         ],
@@ -689,7 +693,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"

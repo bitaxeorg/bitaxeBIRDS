@@ -7,7 +7,7 @@
 	(title_block
 		(title "Bitaxe Intel Reference Design System")
 		(date "2025-10-01")
-		(rev "1300x")
+		(rev "1300xx")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
@@ -1589,6 +1589,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 127 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a556ae8a-0fff-4c6a-932e-4a6c84c833d9")
 		)
@@ -1682,6 +1691,15 @@
 		)
 		(property "Mouser" ""
 			(at 168.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 168.91 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1786,6 +1804,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 229.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b7992896-d6ee-46be-ab66-3786717453ee")
 		)
@@ -1867,6 +1894,15 @@
 		)
 		(property "DK" "DDZ9684-7DICT-ND"
 			(at 175.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 175.26 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,6 +2000,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 250.19 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 250.19 92.71 0)
 			(effects
 				(font
@@ -2075,6 +2120,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 209.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "703ab165-daaf-4cdf-b1d6-c143964428fc")
 		)
@@ -2145,7 +2199,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-071KL"
 			(at 111.76 92.71 0)
 			(effects
 				(font
@@ -2154,7 +2208,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-1.00KLRCT-ND"
 			(at 111.76 92.71 0)
 			(effects
 				(font
@@ -2165,6 +2219,15 @@
 		)
 		(property "Mouser" ""
 			(at 111.76 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 111.76 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,6 +2332,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 220.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9fb761d1-962a-4cb0-a38c-7b6b3bb8ed90")
 		)
@@ -2365,6 +2437,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 218.44 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 218.44 99.06 90)
 			(effects
 				(font

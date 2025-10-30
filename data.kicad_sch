@@ -7,7 +7,7 @@
 	(title_block
 		(title "Bitaxe Intel Reference Design System")
 		(date "2025-10-01")
-		(rev "1300x")
+		(rev "1300xx")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -2796,6 +2796,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 199.39 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "063f088f-0d82-4578-a32e-1ac25a37eee8")
 		)
@@ -2872,6 +2881,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 246.38 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 246.38 123.19 90)
 			(effects
 				(font
@@ -2964,7 +2982,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" ""
 			(at 165.1 205.74 0)
 			(effects
 				(font
@@ -2983,6 +3001,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 165.1 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 165.1 205.74 0)
 			(effects
 				(font
@@ -3096,6 +3123,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 186.69 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "701fa250-5087-4c2f-b907-d8dd9a808bbf")
 		)
@@ -3195,6 +3231,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 199.39 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cbd9479d-9673-4bee-a631-a0cffac72932")
 		)
@@ -3279,6 +3324,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 248.92 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b1989e1-fc89-4e84-9d8a-9078bacf4438")
 		)
@@ -3355,6 +3409,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 196.85 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 196.85 133.35 90)
 			(effects
 				(font
@@ -3457,7 +3520,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C106235"
+		(property "LCSC" ""
 			(at 200.66 201.93 0)
 			(effects
 				(font
@@ -3467,6 +3530,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 200.66 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 200.66 201.93 0)
 			(effects
 				(font
@@ -3562,6 +3634,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 204.47 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9e6080c-408b-4f9b-9f0e-4f730e44b113")
 		)
@@ -3638,6 +3719,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 176.53 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 176.53 140.97 90)
 			(effects
 				(font
@@ -3748,6 +3838,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 176.53 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2c71d81-3a00-4123-9ee9-baf8c4b85384")
 		)
@@ -3827,6 +3926,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 170.18 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 170.18 140.97 90)
 			(effects
 				(font
@@ -3929,6 +4037,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 273.05 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 273.05 135.89 0)
 			(effects
 				(font
@@ -4042,6 +4159,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 170.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28c8f259-7d7c-4ffa-be18-0b60e96b530b")
 		)
@@ -4129,6 +4255,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 259.08 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c9fdf7d-6ced-48fe-8b6b-6e7a617688a6")
 		)
@@ -4186,6 +4321,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 226.06 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 226.06 121.92 0)
 			(effects
 				(font
@@ -4387,6 +4531,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 196.85 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 196.85 123.19 90)
 			(effects
 				(font
