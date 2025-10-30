@@ -567,7 +567,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bitaxe:Raspberry_Pi_Pico"
+		(symbol "bitaxe:Raspberry_Pi_Pico_THT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -587,7 +587,7 @@
 					)
 				)
 			)
-			(property "Footprint" "RasPi_Pico:RasPi_Pico_SMD"
+			(property "Footprint" "bitaxe:RaspberryPi_Pico_Common_THT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -614,7 +614,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Raspberry_Pi_Pico_1_1"
+			(symbol "Raspberry_Pi_Pico_THT_1_1"
 				(rectangle
 					(start -12.7 27.94)
 					(end 12.7 -26.67)
@@ -986,60 +986,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at -2.54 -29.21 90)
-					(length 2.54)
-					(name "SWCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -29.21 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 -29.21 90)
-					(length 2.54)
-					(name "SWDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 15.24 24.13 180)
 					(length 2.54)
@@ -1403,30 +1349,30 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "emberone:TPS22919DCKR"
+		(symbol "bitaxe:TPS22919DCKR"
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -11.938 11.43 0)
+			(property "Reference" "U5"
+				(at 6.35 -10.414 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
 			(property "Value" "TPS22919DCKR"
-				(at 4.572 -14.478 0)
+				(at 0 11.684 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "DCK0006A_N"
+			(property "Footprint" "bitaxe:DCK0006A_N"
 				(at 0 13.462 0)
 				(effects
 					(font
@@ -1466,6 +1412,24 @@
 			)
 			(property "PARTNO" "TPS22919DCKR"
 				(at -1.016 19.558 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field6" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1629,7 +1593,7 @@
 	)
 	(text "I2C1"
 		(exclude_from_sim no)
-		(at 219.964 144.78 0)
+		(at 221.488 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1722,10 +1686,6 @@
 		(uuid "167fc4c2-eda9-43eb-af48-440a78081bf8")
 	)
 	(no_connect
-		(at 228.6 151.13)
-		(uuid "231ff237-c5c4-4cac-bcaf-0c44c226495d")
-	)
-	(no_connect
 		(at 210.82 120.65)
 		(uuid "3129a595-0234-46e1-82c0-c53d2566fa11")
 	)
@@ -1736,10 +1696,6 @@
 	(no_connect
 		(at 210.82 110.49)
 		(uuid "4b1ed279-e4d9-4dec-8573-1d52b20e8c11")
-	)
-	(no_connect
-		(at 226.06 151.13)
-		(uuid "694f4c59-7cf7-474c-9a47-994d766e2054")
 	)
 	(no_connect
 		(at 210.82 97.79)
@@ -1766,20 +1722,8 @@
 		(uuid "dcacc93d-82c0-4ff6-816b-e21e7d41355d")
 	)
 	(no_connect
-		(at 223.52 151.13)
-		(uuid "def6d07f-7e41-42a7-a141-f2e9fdde35e5")
-	)
-	(no_connect
 		(at 241.3 125.73)
 		(uuid "efde5eee-00c9-490c-b78c-aacbc6918318")
-	)
-	(no_connect
-		(at 241.3 133.35)
-		(uuid "f3a452db-eceb-4532-b1ff-a8b7586bafa3")
-	)
-	(no_connect
-		(at 241.3 130.81)
-		(uuid "f4205b56-fb2c-48eb-bdd8-444334f92a17")
 	)
 	(wire
 		(pts
@@ -1873,6 +1817,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 133.35) (xy 254 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "248246c1-224c-4ffc-bd5a-241e1ffccd5b")
+	)
+	(wire
+		(pts
 			(xy 241.3 120.65) (xy 254 120.65)
 		)
 		(stroke
@@ -1950,6 +1904,16 @@
 			(type default)
 		)
 		(uuid "58f233b4-9b80-4294-8953-9b8af3fc9ba5")
+	)
+	(wire
+		(pts
+			(xy 241.3 130.81) (xy 254 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5beeabf1-4322-47de-a498-f26f058c1882")
 	)
 	(wire
 		(pts
@@ -2573,6 +2537,17 @@
 			)
 		)
 	)
+	(hierarchical_label "FAN_PWM"
+		(shape output)
+		(at 254 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "000591fd-592a-4779-aa43-d5fa14dfa13e")
+	)
 	(hierarchical_label "PWR_EN"
 		(shape output)
 		(at 254 135.89 0)
@@ -2693,6 +2668,17 @@
 			(justify left)
 		)
 		(uuid "8a1031d4-3e9a-40f8-97be-78354446ee5c")
+	)
+	(hierarchical_label "FAN_TACH"
+		(shape input)
+		(at 254 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b7c93c7-4345-4c3b-901a-028a97df75d2")
 	)
 	(hierarchical_label "PGOOD"
 		(shape input)
@@ -3021,7 +3007,7 @@
 		)
 	)
 	(symbol
-		(lib_id "emberone:TPS22919DCKR")
+		(lib_id "bitaxe:TPS22919DCKR")
 		(at 186.69 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3045,7 +3031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "emberone:DCK0006A_N"
+		(property "Footprint" "bitaxe:DCK0006A_N"
 			(at 186.69 191.008 0)
 			(effects
 				(font
@@ -3238,7 +3224,7 @@
 				)
 			)
 		)
-		(property "Value" "3V3_EN"
+		(property "Value" "3V3 EN"
 			(at 254.635 106.6799 90)
 			(effects
 				(font
@@ -4156,7 +4142,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bitaxe:Raspberry_Pi_Pico")
+		(lib_id "bitaxe:Raspberry_Pi_Pico_THT")
 		(at 226.06 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4312,15 +4298,6 @@
 		)
 		(pin "20"
 			(uuid "1495fc0d-e0a9-427e-ad1d-a8d82c017a68")
-		)
-		(pin "41"
-			(uuid "6e3b7cfc-2f30-4e36-8f8b-3b82682144b2")
-		)
-		(pin "42"
-			(uuid "b3593fe0-d9fa-4093-a0e5-79618bba2f8a")
-		)
-		(pin "43"
-			(uuid "ed2c1f64-162b-43b2-8640-7a1c66f35293")
 		)
 		(pin "40"
 			(uuid "176d8b8f-747a-4246-8638-48f068037fd3")

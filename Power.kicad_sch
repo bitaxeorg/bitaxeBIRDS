@@ -4540,7 +4540,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PWR_EN"
+		(property "Value" "PWR EN"
 			(at 82.804 67.056 90)
 			(effects
 				(font

@@ -60,15 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "solder_mask_bridge|145500000|84830000|b191049a-baba-4712-8d2f-9dcc6eaa4321|3651a828-83ab-46c8-b784-b59bb66df80f",
+          "courtyards_overlap|104455000|31085935|807cffa3-6378-4f55-a803-52e9bc2de26a|aa182967-dc15-4423-b890-261f72611492",
           ""
         ],
         [
-          "solder_mask_bridge|145662500|83830000|b191049a-baba-4712-8d2f-9dcc6eaa4321|9f50eb76-3ed2-4330-8dac-b57fa4d7ad4e",
-          ""
-        ],
-        [
-          "solder_mask_bridge|145700000|84830000|b191049a-baba-4712-8d2f-9dcc6eaa4321|2a376799-de76-4830-a6b5-f31cf200e716",
+          "courtyards_overlap|156745000|34587592|807cffa3-6378-4f55-a803-52e9bc2de26a|de01ef9e-bb17-4dd1-8268-8b741181aeee",
           ""
         ]
       ],
