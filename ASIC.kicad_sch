@@ -16708,7 +16708,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "ECS-3225MV-500-CN-TR"
 			(at 62.23 320.04 0)
 			(effects
 				(font
@@ -16717,7 +16717,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "SX3M50.000E20F30THN"
+		(property "PARTNO" "XC2889CT-ND"
 			(at 62.23 320.04 0)
 			(effects
 				(font
