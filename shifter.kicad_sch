@@ -1371,7 +1371,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-1.0KJRCT-ND"
+		(property "DK" "311-1.00KLRCT-ND"
 			(at 99.06 113.03 0)
 			(effects
 				(font
@@ -1380,7 +1380,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RC0402JR-071KL"
+		(property "PARTNO" "RC0402FR-071KL"
 			(at 99.06 113.03 0)
 			(effects
 				(font
@@ -1725,7 +1725,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-1.0KJRCT-ND"
+		(property "DK" "311-1.00KLRCT-ND"
 			(at 129.54 77.47 0)
 			(effects
 				(font
@@ -1734,7 +1734,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RC0402JR-071KL"
+		(property "PARTNO" "RC0402FR-071KL"
 			(at 129.54 77.47 0)
 			(effects
 				(font
@@ -1968,7 +1968,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-1.0KJRCT-ND"
+		(property "DK" "311-1.00KLRCT-ND"
 			(at 121.92 92.71 0)
 			(effects
 				(font
@@ -1977,7 +1977,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RC0402JR-071KL"
+		(property "PARTNO" "RC0402FR-071KL"
 			(at 121.92 92.71 0)
 			(effects
 				(font
@@ -2210,7 +2210,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-1.0KJRCT-ND"
+		(property "DK" "311-1.00KLRCT-ND"
 			(at 166.37 67.31 0)
 			(effects
 				(font
@@ -2219,7 +2219,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RC0402JR-071KL"
+		(property "PARTNO" "RC0402FR-071KL"
 			(at 166.37 67.31 0)
 			(effects
 				(font
@@ -2452,7 +2452,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-1.0KJRCT-ND"
+		(property "DK" "311-1.00KLRCT-ND"
 			(at 179.07 67.31 0)
 			(effects
 				(font
@@ -2461,7 +2461,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RC0402JR-071KL"
+		(property "PARTNO" "RC0402FR-071KL"
 			(at 179.07 67.31 0)
 			(effects
 				(font
@@ -2563,7 +2563,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-1.0KJRCT-ND"
+		(property "DK" "311-1.00KLRCT-ND"
 			(at 129.54 59.69 0)
 			(effects
 				(font
@@ -2572,7 +2572,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RC0402JR-071KL"
+		(property "PARTNO" "RC0402FR-071KL"
 			(at 129.54 59.69 0)
 			(effects
 				(font
