@@ -4222,7 +4222,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "TMK107B7105KA-T"
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 120.65 87.63 90)
 			(effects
 				(font
@@ -4231,7 +4231,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "587-2984-1-ND"
+		(property "DK" "587-5514-1-ND"
 			(at 120.65 87.63 90)
 			(effects
 				(font
@@ -4240,7 +4240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" ""
 			(at 123.19 88.646 90)
 			(effects
 				(font
@@ -4809,7 +4809,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 104.14 64.77 0)
 			(effects
 				(font
@@ -5062,7 +5062,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "490-8257-1-ND"
+		(property "PARTNO" "GRM155R61H222KA01D"
 			(at 115.57 43.18 90)
 			(effects
 				(font
@@ -6535,7 +6535,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 107.95 43.18 0)
 			(effects
 				(font
