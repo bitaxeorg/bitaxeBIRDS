@@ -19,5 +19,7 @@ It is still an untested prototype! Don't build this expecting it to work out of 
 - Controlled by the [RaspberryPi Pico 2W](https://www.raspberrypi.com/products/raspberry-pi-pico-2/) featuring the RP2350 microcontroller and a Infineon CYW43439 WiFi SoC
 	- Rumored to have good embedded Rust support
 	- Programmable IO controller for integrating with the gnarly 5Mbaud, 9bit serial on the BZM2
-- Gerbers _not_ provided in an attempt to prevent AliEx slop. HMU if you need help generating gerbers with KiCad.
+    - Preliminary support with the [bitaxe-raw-pico](https://github.com/bitaxeorg/bitaxe-raw/tree/pico) firmware.
+    	- Note: this targets the RP2040 in the Pico. It's pin compatible with with RP2350-based Pico 2. 
+- Gerbers _not_ provided to discourage side hacks and AliEx slop. HMU if you need help generating gerbers with KiCad.
 
