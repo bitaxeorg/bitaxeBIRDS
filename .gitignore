@@ -37,3 +37,6 @@ i*bak
 
 # gerbers
 gerbers/
+
+# Generated Manufacturing files
+Manufacturing Files/
