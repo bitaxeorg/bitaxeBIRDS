@@ -1,4 +1,4 @@
-| Temp (C)  | Voltage (V) | Frequency (GHz) | Hashrate (TH/s) | Current (Amp) | Power (Watts) | Efficiency (J/TH) |
+| Temp (C)  | Voltage (V) | Frequency (GHz) | Hashrate (TH/s) | Current (Amp) | Power (Watt) | Efficiency (J/TH) |
 |-----------|-------------|-----------------|-----------------|---------------|---------------|-------------------|
 | 48        | 0.680       | 0.60            | 0.187           | 7.3           | 5.0           | 26.5              |
 | 48        | 0.680       | 0.65            | 0.203           | 7.9           | 5.4           | 26.5              |
