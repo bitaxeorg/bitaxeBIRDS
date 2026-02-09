@@ -5901,7 +5901,7 @@
 			(at 1.27 2.16)
 			(size 1.3 1.3)
 			(drill 1.3)
-			(layers "F&B.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(uuid "78185ca3-39e6-4aa0-be36-0f7a6f1563c3")
 		)
 		(pad "1" thru_hole oval
@@ -37861,7 +37861,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "5852-SX3M50.000E20F30THNTR-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37889,7 +37889,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5137267"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")

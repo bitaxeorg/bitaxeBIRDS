@@ -991,16 +991,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 100.33) (xy 102.87 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ea799b9-5d6c-43e5-b6ed-04a21a53d916")
-	)
-	(wire
-		(pts
 			(xy 148.59 53.34) (xy 148.59 109.22)
 		)
 		(stroke
@@ -1348,16 +1338,6 @@
 			(justify left bottom)
 		)
 		(uuid "c46ee254-fb60-479d-b1a1-63f065958abc")
-	)
-	(label "12V"
-		(at 90.17 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c874f0af-30ed-4721-9dcd-e883f8f81ce6")
 	)
 	(label "5V"
 		(at 90.17 116.84 0)
@@ -2418,16 +2398,6 @@
 		(pin "3V3" output
 			(at 102.87 120.65 180)
 			(uuid "d20c4726-fcfa-4ede-a958-1d2e193a807f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "12V" input
-			(at 102.87 100.33 180)
-			(uuid "275fb9d6-445c-4241-98b7-782bce65ff1c")
 			(effects
 				(font
 					(size 1.27 1.27)
