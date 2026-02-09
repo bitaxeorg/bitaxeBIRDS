@@ -1653,7 +1653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 168.91 91.44 0)
 			(effects
 				(font
@@ -1759,7 +1759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 229.87 80.01 0)
 			(effects
 				(font
@@ -2181,7 +2181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 111.76 92.71 0)
 			(effects
 				(font
@@ -2287,7 +2287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
+		(property "Datasheet" "~"
 			(at 220.98 80.01 0)
 			(effects
 				(font

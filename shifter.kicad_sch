@@ -1166,7 +1166,7 @@
 		)
 		(uuid "fefcd4d3-c125-4187-b736-80f6794bed21")
 	)
-	(label "GND1"
+	(label "GND_H"
 		(at 99.06 55.88 0)
 		(effects
 			(font

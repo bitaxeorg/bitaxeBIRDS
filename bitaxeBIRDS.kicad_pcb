@@ -373,7 +373,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1249,7 +1249,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1396,7 +1396,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1542,7 +1542,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2418,7 +2418,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2564,7 +2564,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3506,7 +3506,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3652,7 +3652,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4562,7 +4562,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4962,7 +4962,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5108,7 +5108,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5254,7 +5254,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5401,7 +5401,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5548,7 +5548,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7361,7 +7361,7 @@
 			(remove_unused_layers no)
 			(net 2 "/5V")
 			(pinfunction "VSYS")
-			(pintype "power_in")
+			(pintype "power_out")
 			(uuid "9ce36556-66d2-4278-aef7-7aa542a9e796")
 		)
 		(pad "40" thru_hole circle
@@ -7584,7 +7584,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7730,7 +7730,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7876,7 +7876,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8022,7 +8022,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8168,7 +8168,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8314,7 +8314,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8460,7 +8460,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8606,7 +8606,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9132,7 +9132,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9278,7 +9278,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10154,7 +10154,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10300,7 +10300,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10616,7 +10616,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10763,7 +10763,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10909,7 +10909,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11055,7 +11055,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11327,7 +11327,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11473,7 +11473,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11619,7 +11619,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12496,7 +12496,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12642,7 +12642,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12788,7 +12788,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12934,7 +12934,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13080,7 +13080,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13226,7 +13226,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13677,7 +13677,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14433,7 +14433,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14724,7 +14724,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -15976,7 +15976,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1117/EMK105BJ105MV-F_SS.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -18361,6 +18361,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Partnum" "SN74AXC4T774BQBR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b323dea0-afba-463c-9c4a-d5e9702ea3d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/1d482512-070e-47c1-a539-fa85afaf9853")
 		(sheetname "/ASIC/")
 		(sheetfile "ASIC.kicad_sch")
@@ -18672,7 +18686,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1117/EMK105BJ105MV-F_SS.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -18961,7 +18975,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19439,7 +19453,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -21490,7 +21504,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71E472KA01-01.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -21765,7 +21779,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22373,7 +22387,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22618,7 +22632,7 @@
 			(layers "B.Cu")
 			(net 16 "GND")
 			(pinfunction "1")
-			(pintype "passive")
+			(pintype "power_in")
 			(uuid "a120dba2-f37d-4d3c-ac0a-eefb4054f71e")
 		)
 		(pad "2" smd circle
@@ -22627,7 +22641,7 @@
 			(layers "B.Cu")
 			(net 127 "/Power/AGND")
 			(pinfunction "2")
-			(pintype "passive")
+			(pintype "power_out")
 			(uuid "15ccd3c2-86fd-4fed-949e-9ebf77b9870b")
 		)
 		(embedded_fonts no)
@@ -22980,7 +22994,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24919,7 +24933,7 @@
 			(remove_unused_layers no)
 			(net 1 "/12V")
 			(pinfunction "+V")
-			(pintype "power_in")
+			(pintype "power_out")
 			(uuid "e26c08ed-19f3-423c-b32c-f8deedcf40cf")
 		)
 		(pad "2" thru_hole circle
@@ -24930,7 +24944,7 @@
 			(remove_unused_layers no)
 			(net 16 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "power_out")
 			(uuid "e71a90aa-3559-4137-ace0-cdf29f395c41")
 		)
 		(pad "3" thru_hole circle
@@ -25001,7 +25015,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -25014,7 +25028,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -26382,7 +26396,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -27934,7 +27948,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 69 "/Data/5V_EN")
 			(pinfunction "ON")
-			(pintype "input")
+			(pintype "passive")
 			(uuid "ef82a61f-1854-45f1-b55c-bac226ead22e")
 		)
 		(pad "4" smd rect
@@ -27952,7 +27966,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 117 "Net-(U5-QOD)")
 			(pinfunction "QOD")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "6dccd23a-8e35-4385-ba92-6abdf6405758")
 		)
 		(pad "6" smd rect
@@ -27961,7 +27975,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 109 "/5V_SWITCH")
 			(pinfunction "OUT")
-			(pintype "power_in")
+			(pintype "power_out")
 			(uuid "73997088-6239-4f50-adfa-2de2e6905bb9")
 		)
 		(embedded_fonts no)
@@ -28614,7 +28628,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps546d24s.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps546d24a.pdf"
 			(at 2.04 -12.78 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -28642,7 +28656,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "296-TPS546D24SRVFRCT-ND"
+		(property "DK" "296-TPS546D24ARVFRCT-ND"
 			(at 1.35 -14.68 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -28655,7 +28669,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "TPS546D24SRVFR"
+		(property "PARTNO" "TPS546D24ARVFR"
 			(at 0.08 -11.15 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -29054,7 +29068,7 @@
 			(roundrect_rratio 0.25)
 			(net 12 "/Power/SW1")
 			(pinfunction "SW")
-			(pintype "output")
+			(pintype "input")
 			(uuid "58f574aa-a7f6-4150-8c81-5ca77cace615")
 		)
 		(pad "9" smd roundrect
@@ -29064,7 +29078,7 @@
 			(roundrect_rratio 0.25)
 			(net 12 "/Power/SW1")
 			(pinfunction "SW")
-			(pintype "power_in")
+			(pintype "input")
 			(uuid "675e0ccb-16f1-4d54-b323-354f0904c157")
 		)
 		(pad "10" smd roundrect
@@ -29074,7 +29088,7 @@
 			(roundrect_rratio 0.25)
 			(net 12 "/Power/SW1")
 			(pinfunction "SW")
-			(pintype "power_in")
+			(pintype "input")
 			(uuid "8e2fb81a-30d3-4927-9bd3-a2c177a96890")
 		)
 		(pad "11" smd roundrect
@@ -29084,7 +29098,7 @@
 			(roundrect_rratio 0.25)
 			(net 12 "/Power/SW1")
 			(pinfunction "SW")
-			(pintype "output")
+			(pintype "input")
 			(uuid "3e73b887-f06b-4b49-8b07-ac812610a0c0")
 		)
 		(pad "12" smd roundrect
@@ -29094,7 +29108,7 @@
 			(roundrect_rratio 0.25)
 			(net 12 "/Power/SW1")
 			(pinfunction "SW")
-			(pintype "power_out")
+			(pintype "input")
 			(uuid "2faf6a7b-fb18-460d-942d-43507ae958f0")
 		)
 		(pad "13" smd roundrect
@@ -29104,7 +29118,7 @@
 			(roundrect_rratio 0.25)
 			(net 16 "GND")
 			(pinfunction "PGND")
-			(pintype "output")
+			(pintype "power_in")
 			(uuid "798b60a4-7e0c-4442-839d-d2b45e8cf084")
 		)
 		(pad "14" smd roundrect
@@ -29114,7 +29128,7 @@
 			(roundrect_rratio 0.25)
 			(net 16 "GND")
 			(pinfunction "PGND")
-			(pintype "output")
+			(pintype "power_in")
 			(uuid "fc11e36c-73e5-44a6-b512-380a1b2ce69f")
 		)
 		(pad "15" smd roundrect
@@ -29124,7 +29138,7 @@
 			(roundrect_rratio 0.25)
 			(net 16 "GND")
 			(pinfunction "PGND")
-			(pintype "input")
+			(pintype "power_in")
 			(uuid "fa1a7826-dcc7-40be-9b77-90bc789aa38f")
 		)
 		(pad "16" smd roundrect
@@ -29134,7 +29148,7 @@
 			(roundrect_rratio 0.25)
 			(net 16 "GND")
 			(pinfunction "PGND")
-			(pintype "input")
+			(pintype "power_in")
 			(uuid "464539c5-6c51-4c6f-a7fd-54de1d42fe0b")
 		)
 		(pad "17" smd roundrect
@@ -29154,7 +29168,7 @@
 			(roundrect_rratio 0.25)
 			(net 16 "GND")
 			(pinfunction "PGND")
-			(pintype "input")
+			(pintype "power_in")
 			(uuid "cafb646f-2a3a-4fab-b768-a5a241c0cca2")
 		)
 		(pad "19" smd roundrect
@@ -29164,7 +29178,7 @@
 			(roundrect_rratio 0.25)
 			(net 16 "GND")
 			(pinfunction "PGND")
-			(pintype "input")
+			(pintype "power_in")
 			(uuid "23846694-f415-406a-8754-3543e571aa13")
 		)
 		(pad "20" smd roundrect
@@ -30364,7 +30378,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -30639,7 +30653,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31366,7 +31380,7 @@
 			(layers "B.Cu")
 			(net 100 "/ASIC/1V2-1")
 			(pinfunction "OUT")
-			(pintype "power_in")
+			(pintype "power_out")
 			(clearance 0.1)
 			(options
 				(clearance outline)
@@ -31510,7 +31524,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -31523,7 +31537,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -32267,7 +32281,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1117/EMK105BJ105MV-F_SS.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -33176,7 +33190,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -33467,7 +33481,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -34211,7 +34225,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1117/EMK105BJ105MV-F_SS.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -34486,7 +34500,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -35080,7 +35094,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1117/EMK105BJ105MV-F_SS.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -35658,7 +35672,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1117/EMK105BJ105MV-F_SS.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -36371,7 +36385,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H222KA01-01.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -37155,7 +37169,7 @@
 			(layers "B.Cu")
 			(net 82 "/ASIC/1V2-2")
 			(pinfunction "OUT")
-			(pintype "power_in")
+			(pintype "power_out")
 			(clearance 0.1)
 			(options
 				(clearance outline)
@@ -37299,7 +37313,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1117/EMK105BJ105MV-F_SS.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37576,7 +37590,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -37589,7 +37603,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -38954,7 +38968,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40152,7 +40166,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -40165,7 +40179,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Polarized tantalum capacitor, small US symbol"
+		(property "Description" "Polarized capacitor, small US symbol"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -40919,7 +40933,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -41194,7 +41208,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -42173,7 +42187,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -42450,7 +42464,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1117/EMK105BJ105MV-F_SS.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -44064,7 +44078,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -44586,7 +44600,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -46472,7 +46486,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -46763,7 +46777,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1117/EMK105BJ105MV-F_SS.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -47052,7 +47066,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47505,7 +47519,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61A475MEAA-01.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -48221,7 +48235,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -48498,7 +48512,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1117/EMK105BJ105MV-F_SS.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -49529,7 +49543,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -49954,7 +49968,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1117/EMK105BJ105MV-F_SS.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -50464,7 +50478,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -52249,7 +52263,7 @@
 			(layers "B.Cu")
 			(net 39 "/ASIC/1V2-3")
 			(pinfunction "OUT")
-			(pintype "power_in")
+			(pintype "power_out")
 			(clearance 0.1)
 			(options
 				(clearance outline)
@@ -52667,7 +52681,7 @@
 			(layers "B.Cu")
 			(net 29 "/ASIC/1V2-4")
 			(pinfunction "OUT")
-			(pintype "power_in")
+			(pintype "power_out")
 			(clearance 0.1)
 			(options
 				(clearance outline)
@@ -52811,7 +52825,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -52824,7 +52838,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -53072,7 +53086,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -53085,7 +53099,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)

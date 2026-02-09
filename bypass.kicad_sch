@@ -772,7 +772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 119.38 82.55 0)
 			(effects
 				(font
@@ -781,7 +781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 119.38 82.55 0)
 			(effects
 				(font
@@ -1215,7 +1215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 134.62 82.55 0)
 			(effects
 				(font
@@ -1224,7 +1224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 134.62 82.55 0)
 			(effects
 				(font
@@ -1658,7 +1658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 127 82.55 0)
 			(effects
 				(font
@@ -1667,7 +1667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 127 82.55 0)
 			(effects
 				(font

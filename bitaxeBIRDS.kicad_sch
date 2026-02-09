@@ -11,7 +11,7 @@
 	)
 	(lib_symbols
 		(symbol "Mechanical:Fiducial"
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "FID"
@@ -181,7 +181,7 @@
 				(offset 1.016)
 				(hide yes)
 			)
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
@@ -614,7 +614,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -7.62 1.27 0)
 					(length 3.81)
 					(name "+V"
@@ -632,7 +632,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -7.62 -2.54 0)
 					(length 3.81)
 					(name "GND"
@@ -1503,7 +1503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bitaxe:Heatsink-5hole-BitaxeGT"
+		(property "Footprint" "bitaxe:Heatsink-BitaxeGT"
 			(at 122.2248 179.07 0)
 			(effects
 				(font
@@ -2415,7 +2415,7 @@
 				(justify left)
 			)
 		)
-		(pin "TT_3V3" input
+		(pin "TRIP_3V3" input
 			(at 128.27 109.22 0)
 			(uuid "f5418e00-323d-4806-97e6-d4df95eea854")
 			(effects
@@ -2689,7 +2689,7 @@
 				(justify left)
 			)
 		)
-		(pin "TT_3V3" output
+		(pin "TRIP_3V3" output
 			(at 198.12 53.34 180)
 			(uuid "861cbd2b-4013-4b1c-8fa7-fd741a937e1a")
 			(effects

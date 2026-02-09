@@ -16158,7 +16158,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 15.24 21.59 180)
 				(length 2.54)
 				(name "VSYS"
@@ -16212,7 +16212,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 15.24 13.97 180)
 				(length 2.54)
 				(name "3V3"
@@ -18160,7 +18160,7 @@
 			)
 		)
 		(property "PARTNO" "TLV75512PDQNR"
-			(at 0 0 0)
+			(at 0 -11.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18169,7 +18169,7 @@
 			)
 		)
 		(property "DK" "296-51785-1-ND"
-			(at 0 0 0)
+			(at 0.254 -9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18232,24 +18232,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 7.62 2.54 180)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin unspecified line
 				(at 7.62 0 180)
 				(length 2.54)
@@ -18297,6 +18279,24 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(pin power_out line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
@@ -19341,24 +19341,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 -2.54 0)
-				(length 2.54)
-				(name "ON"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin unspecified line
 				(at -10.16 -6.35 0)
 				(length 2.54)
@@ -19370,42 +19352,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 10.16 7.62 180)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 10.16 -2.54 180)
-				(length 2.54)
-				(name "QOD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19442,6 +19388,60 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(pin passive line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "ON"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 7.62 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "QOD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
@@ -21248,7 +21248,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 13.97 35.56 180)
 				(length 2.54)
 				(name "SW"
@@ -21266,7 +21266,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 13.97 33.02 180)
 				(length 2.54)
 				(name "SW"
@@ -21284,7 +21284,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 13.97 30.48 180)
 				(length 2.54)
 				(name "SW"
@@ -21302,7 +21302,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 13.97 27.94 180)
 				(length 2.54)
 				(name "SW"
@@ -21320,7 +21320,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin input line
 				(at 13.97 25.4 180)
 				(length 2.54)
 				(name "SW"
@@ -21338,7 +21338,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_in line
 				(at 13.97 19.05 180)
 				(length 2.54)
 				(name "PGND"
@@ -21356,7 +21356,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_in line
 				(at 13.97 16.51 180)
 				(length 2.54)
 				(name "PGND"
@@ -21374,7 +21374,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 13.97 13.97 180)
 				(length 2.54)
 				(name "PGND"
@@ -21392,7 +21392,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 13.97 11.43 180)
 				(length 2.54)
 				(name "PGND"
@@ -21428,7 +21428,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 13.97 6.35 180)
 				(length 2.54)
 				(name "PGND"
@@ -21446,7 +21446,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 13.97 3.81 180)
 				(length 2.54)
 				(name "PGND"
@@ -23300,7 +23300,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at -7.62 1.27 0)
 				(length 3.81)
 				(name "+V"
@@ -23318,7 +23318,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at -7.62 -2.54 0)
 				(length 3.81)
 				(name "GND"
@@ -23419,7 +23419,7 @@
 			)
 		)
 		(symbol "oscillator_1_0"
-			(pin bidirectional line
+			(pin input line
 				(at -7.62 1.27 0)
 				(length 2.54)
 				(name "EN"
@@ -23437,7 +23437,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -7.62 -1.27 0)
 				(length 2.54)
 				(name "GND"
@@ -23455,7 +23455,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 7.62 1.27 180)
 				(length 2.54)
 				(name "OUT"
@@ -23473,7 +23473,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 7.62 -1.27 180)
 				(length 2.54)
 				(name "VIN"

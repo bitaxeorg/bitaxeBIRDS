@@ -1004,7 +1004,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 15.24 21.59 180)
 					(length 2.54)
 					(name "VSYS"
@@ -1058,7 +1058,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 15.24 13.97 180)
 					(length 2.54)
 					(name "3V3"
@@ -1474,24 +1474,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "ON"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin unspecified line
 					(at -10.16 -6.35 0)
 					(length 2.54)
@@ -1503,42 +1485,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "QOD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1575,6 +1521,60 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "ON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "QOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -2603,7 +2603,7 @@
 		)
 		(uuid "2e54d898-ee59-4ff6-b3ec-6b77de254121")
 	)
-	(hierarchical_label "TT_3V3"
+	(hierarchical_label "TRIP_3V3"
 		(shape input)
 		(at 195.58 130.81 180)
 		(effects
@@ -2769,7 +2769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 199.39 125.73 0)
 			(effects
 				(font
@@ -2862,7 +2862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 246.38 123.19 0)
 			(effects
 				(font
@@ -3204,7 +3204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 199.39 130.81 0)
 			(effects
 				(font
@@ -3297,7 +3297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 248.92 105.41 0)
 			(effects
 				(font
@@ -3390,7 +3390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 196.85 133.35 0)
 			(effects
 				(font
@@ -3607,7 +3607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 204.47 128.27 0)
 			(effects
 				(font
@@ -3700,7 +3700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 176.53 140.97 0)
 			(effects
 				(font
@@ -3907,7 +3907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 170.18 140.97 0)
 			(effects
 				(font
@@ -4228,7 +4228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 259.08 107.95 0)
 			(effects
 				(font
@@ -4511,7 +4511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 196.85 123.19 0)
 			(effects
 				(font
