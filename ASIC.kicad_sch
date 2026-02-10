@@ -2859,6 +2859,160 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "bitaxe:MCP1824"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MCP1824"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/22070a.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP1824_0_1"
+				(rectangle
+					(start -7.62 3.81)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MCP1824_1_0"
+				(pin bidirectional line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "bitaxe:SN74AVC4T774-BQB"
 			(pin_names
 				(offset 1.016)
@@ -3255,201 +3409,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bitaxe:TLV75512PDQNR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -4.318 6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "TLV75512PDQNR"
-				(at 0.254 -6.858 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "bitaxe:DQN0004A"
-				(at -0.254 -22.606 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/tlv755p"
-				(at 0.762 -19.558 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTNO" "TLV75512PDQNR"
-				(at 0 -11.938 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DK" "296-51785-1-ND"
-				(at 0.254 -9.906 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "TLV75512PDQNR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DQN0004A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TLV75512PDQNR_0_1"
-				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "PAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TLV75512PDQNR_1_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_out line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "bitaxe:oscillator"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3784,7 +3743,7 @@
 		(uuid "242d08e8-4f9b-4240-981a-8ba109de80a8")
 	)
 	(junction
-		(at 167.64 314.96)
+		(at 172.72 314.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2636f466-a6cf-4f61-8b0f-248afb170e5c")
@@ -3802,12 +3761,6 @@
 		(uuid "2eb2411c-9ef5-4502-81f0-90c26761cf65")
 	)
 	(junction
-		(at 163.83 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ff19b6c-10e5-41d1-b9f4-49e3ffba522a")
-	)
-	(junction
 		(at 226.06 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3820,7 +3773,7 @@
 		(uuid "33d5c3c7-adea-467f-9bb4-5810911274de")
 	)
 	(junction
-		(at 167.64 83.82)
+		(at 172.72 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3609c2cf-97a5-4f84-ac99-6f2c20b92897")
@@ -3862,7 +3815,7 @@
 		(uuid "47a7dd03-bbd0-41a4-832c-53bb2cd86f2d")
 	)
 	(junction
-		(at 163.83 176.53)
+		(at 168.91 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4bff5b3b-383f-4518-85d7-4aa5c0ae00f6")
@@ -3940,7 +3893,7 @@
 		(uuid "77687d86-7c07-4a5d-b811-a0b6f9ba8b28")
 	)
 	(junction
-		(at 163.83 328.93)
+		(at 168.91 328.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77c4a90f-9fa5-447d-8720-b183e0f3114b")
@@ -3952,7 +3905,7 @@
 		(uuid "79eb9e18-79e4-4e57-91d7-bded15926a10")
 	)
 	(junction
-		(at 163.83 97.79)
+		(at 168.91 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79eee10b-bd61-4f4e-b2e2-b0252960ff4b")
@@ -3970,7 +3923,7 @@
 		(uuid "83dc976f-cb54-452f-93b3-9ebed652e04c")
 	)
 	(junction
-		(at 167.64 162.56)
+		(at 172.72 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84517478-2505-4df2-bdbd-984d639b3380")
@@ -4078,12 +4031,6 @@
 		(uuid "b1162425-41d5-41a9-b770-f514f04d4942")
 	)
 	(junction
-		(at 163.83 320.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b171f758-6b81-4140-935f-e0bc76355baa")
-	)
-	(junction
 		(at 144.78 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4094,12 +4041,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b570c6f6-2fe6-4418-bcb8-05b84bc07ecf")
-	)
-	(junction
-		(at 163.83 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bdda0eea-afd5-4b00-91b3-5b8470e8a854")
 	)
 	(junction
 		(at 372.11 228.6)
@@ -4126,7 +4067,7 @@
 		(uuid "ca7b6a39-6ffa-470c-a1f3-a2f771e39493")
 	)
 	(junction
-		(at 163.83 255.27)
+		(at 168.91 255.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb8f2063-f368-4275-aa0d-8c2832e3c88c")
@@ -4156,7 +4097,7 @@
 		(uuid "d9ab570c-1639-458c-ad91-c9e3ddda460c")
 	)
 	(junction
-		(at 167.64 241.3)
+		(at 172.72 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db4c40fe-5ec2-4342-b0f3-b7659295d7b1")
@@ -4172,12 +4113,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eef4b300-213f-4ee9-90b3-1abff3d106d7")
-	)
-	(junction
-		(at 163.83 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "efc84046-92eb-4e4d-bbc1-5c1dc4cd34fb")
 	)
 	(junction
 		(at 229.87 257.81)
@@ -4226,6 +4161,10 @@
 		(uuid "082d41f1-7d86-499c-b2a8-f107032bc6fc")
 	)
 	(no_connect
+		(at 147.32 167.64)
+		(uuid "08b1e2ff-6af0-4d51-90c3-fdafde69ba59")
+	)
+	(no_connect
 		(at 306.07 261.62)
 		(uuid "0d86f23c-31a1-489e-b378-f131a0132dab")
 	)
@@ -4240,6 +4179,10 @@
 	(no_connect
 		(at 306.07 331.47)
 		(uuid "36ecc90f-700f-471f-b668-150d5c8b278c")
+	)
+	(no_connect
+		(at 147.32 320.04)
+		(uuid "50ce91c1-b64e-4fce-8b7f-78decd567924")
 	)
 	(no_connect
 		(at 306.07 100.33)
@@ -4278,6 +4221,10 @@
 		(uuid "9d4813a4-4496-4e3a-aedd-64d8ba4e8d69")
 	)
 	(no_connect
+		(at 147.32 246.38)
+		(uuid "9e165d85-bd57-4166-8d67-4684524cf5a6")
+	)
+	(no_connect
 		(at 306.07 259.08)
 		(uuid "aa73c47d-2e45-4c41-ada9-1bc17a878296")
 	)
@@ -4304,6 +4251,10 @@
 	(no_connect
 		(at 306.07 311.15)
 		(uuid "d3dc1aea-c696-4b01-a34f-b98dc9328df1")
+	)
+	(no_connect
+		(at 147.32 88.9)
+		(uuid "d8dc2ffd-4d51-4a0c-ab12-f7fa54f31872")
 	)
 	(no_connect
 		(at 267.97 261.62)
@@ -4374,16 +4325,6 @@
 			(type default)
 		)
 		(uuid "0323e7a5-f04f-41ff-aa82-cf4c1ec439ec")
-	)
-	(wire
-		(pts
-			(xy 163.83 243.84) (xy 163.83 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "039bfad2-0277-4c80-b015-ed18c6611cba")
 	)
 	(wire
 		(pts
@@ -4517,7 +4458,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 243.84) (xy 163.83 243.84)
+			(xy 167.64 243.84) (xy 168.91 243.84)
 		)
 		(stroke
 			(width 0)
@@ -4587,7 +4528,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 246.38) (xy 163.83 255.27)
+			(xy 168.91 243.84) (xy 168.91 255.27)
 		)
 		(stroke
 			(width 0)
@@ -4697,7 +4638,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 328.93) (xy 163.83 328.93)
+			(xy 140.97 328.93) (xy 168.91 328.93)
 		)
 		(stroke
 			(width 0)
@@ -4777,7 +4718,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 255.27) (xy 163.83 255.27)
+			(xy 140.97 255.27) (xy 168.91 255.27)
 		)
 		(stroke
 			(width 0)
@@ -4887,7 +4828,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 328.93) (xy 167.64 328.93)
+			(xy 168.91 328.93) (xy 172.72 328.93)
 		)
 		(stroke
 			(width 0)
@@ -5037,7 +4978,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 241.3) (xy 167.64 241.3)
+			(xy 167.64 241.3) (xy 172.72 241.3)
 		)
 		(stroke
 			(width 0)
@@ -5047,7 +4988,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 97.79) (xy 167.64 97.79)
+			(xy 168.91 97.79) (xy 172.72 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5217,7 +5158,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 314.96) (xy 167.64 314.96)
+			(xy 167.64 314.96) (xy 172.72 314.96)
 		)
 		(stroke
 			(width 0)
@@ -5347,16 +5288,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 320.04) (xy 163.83 320.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59a398bb-fdf1-496b-b253-30d4f781c7c9")
-	)
-	(wire
-		(pts
 			(xy 377.19 186.69) (xy 377.19 161.29)
 		)
 		(stroke
@@ -5367,7 +5298,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 317.5) (xy 163.83 320.04)
+			(xy 168.91 317.5) (xy 168.91 328.93)
 		)
 		(stroke
 			(width 0)
@@ -5467,7 +5398,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 83.82) (xy 177.8 83.82)
+			(xy 172.72 83.82) (xy 182.88 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5517,7 +5448,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 83.82) (xy 167.64 83.82)
+			(xy 167.64 83.82) (xy 172.72 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5637,7 +5568,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 176.53) (xy 163.83 176.53)
+			(xy 140.97 176.53) (xy 168.91 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5667,7 +5598,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 162.56) (xy 167.64 162.56)
+			(xy 167.64 162.56) (xy 172.72 162.56)
 		)
 		(stroke
 			(width 0)
@@ -5717,7 +5648,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 165.1) (xy 163.83 165.1)
+			(xy 167.64 165.1) (xy 168.91 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5727,7 +5658,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 97.79) (xy 163.83 97.79)
+			(xy 140.97 97.79) (xy 168.91 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5767,7 +5698,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 83.82) (xy 167.64 86.36)
+			(xy 172.72 83.82) (xy 172.72 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5817,7 +5748,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 314.96) (xy 177.8 314.96)
+			(xy 172.72 314.96) (xy 182.88 314.96)
 		)
 		(stroke
 			(width 0)
@@ -5847,7 +5778,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 91.44) (xy 167.64 97.79)
+			(xy 172.72 91.44) (xy 172.72 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5957,7 +5888,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 170.18) (xy 167.64 176.53)
+			(xy 172.72 170.18) (xy 172.72 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6107,7 +6038,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 86.36) (xy 163.83 86.36)
+			(xy 167.64 86.36) (xy 168.91 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6377,7 +6308,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 241.3) (xy 177.8 241.3)
+			(xy 172.72 241.3) (xy 182.88 241.3)
 		)
 		(stroke
 			(width 0)
@@ -6507,7 +6438,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 167.64) (xy 163.83 176.53)
+			(xy 168.91 165.1) (xy 168.91 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6687,16 +6618,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 246.38) (xy 163.83 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3f79fea-9c14-4316-8313-d751c4c4d46a")
-	)
-	(wire
-		(pts
 			(xy 344.17 151.13) (xy 344.17 176.53)
 		)
 		(stroke
@@ -6727,7 +6648,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 88.9) (xy 163.83 97.79)
+			(xy 168.91 86.36) (xy 168.91 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6887,7 +6808,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 314.96) (xy 167.64 317.5)
+			(xy 172.72 314.96) (xy 172.72 317.5)
 		)
 		(stroke
 			(width 0)
@@ -6944,16 +6865,6 @@
 			(type default)
 		)
 		(uuid "d88f4352-51c9-4812-8144-8c2c961a0842")
-	)
-	(wire
-		(pts
-			(xy 163.83 165.1) (xy 163.83 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d939393e-b47c-4b4e-a961-b5af417b121c")
 	)
 	(wire
 		(pts
@@ -7017,16 +6928,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 86.36) (xy 163.83 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1353110-9c97-4283-829c-96e7d2a95c4e")
-	)
-	(wire
-		(pts
 			(xy 224.79 264.16) (xy 224.79 252.73)
 		)
 		(stroke
@@ -7077,7 +6978,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 248.92) (xy 167.64 255.27)
+			(xy 172.72 248.92) (xy 172.72 255.27)
 		)
 		(stroke
 			(width 0)
@@ -7107,23 +7008,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 322.58) (xy 167.64 328.93)
+			(xy 172.72 322.58) (xy 172.72 328.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e7355d61-2fdf-4d81-8456-d6bfeae2112b")
-	)
-	(wire
-		(pts
-			(xy 162.56 167.64) (xy 163.83 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8cac993-f7b4-4d7b-8588-6a30e9b46330")
 	)
 	(wire
 		(pts
@@ -7157,7 +7048,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 317.5) (xy 163.83 317.5)
+			(xy 167.64 317.5) (xy 168.91 317.5)
 		)
 		(stroke
 			(width 0)
@@ -7227,7 +7118,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 176.53) (xy 167.64 176.53)
+			(xy 168.91 176.53) (xy 172.72 176.53)
 		)
 		(stroke
 			(width 0)
@@ -7257,7 +7148,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 162.56) (xy 167.64 165.1)
+			(xy 172.72 162.56) (xy 172.72 165.1)
 		)
 		(stroke
 			(width 0)
@@ -7317,7 +7208,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 241.3) (xy 167.64 243.84)
+			(xy 172.72 241.3) (xy 172.72 243.84)
 		)
 		(stroke
 			(width 0)
@@ -7344,16 +7235,6 @@
 			(type default)
 		)
 		(uuid "f3bd96f5-4cb5-472d-814f-877aac3db8ab")
-	)
-	(wire
-		(pts
-			(xy 163.83 320.04) (xy 163.83 328.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f413ea10-caf8-4038-89ff-421257b8221a")
 	)
 	(wire
 		(pts
@@ -7397,7 +7278,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 255.27) (xy 167.64 255.27)
+			(xy 168.91 255.27) (xy 172.72 255.27)
 		)
 		(stroke
 			(width 0)
@@ -7417,16 +7298,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 88.9) (xy 163.83 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7b8f772-8589-4e27-ae2e-fec345395152")
-	)
-	(wire
-		(pts
 			(xy 270.51 118.11) (xy 287.02 118.11)
 		)
 		(stroke
@@ -7437,7 +7308,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 162.56) (xy 177.8 162.56)
+			(xy 172.72 162.56) (xy 182.88 162.56)
 		)
 		(stroke
 			(width 0)
@@ -7746,7 +7617,7 @@
 		(uuid "42f798e3-c8f9-4a61-9320-5691916221f2")
 	)
 	(label "1V2-2"
-		(at 177.8 241.3 180)
+		(at 182.88 241.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7776,7 +7647,7 @@
 		(uuid "59659b76-f6f2-482d-93e0-a0cd478eaeb0")
 	)
 	(label "1V2-4"
-		(at 177.8 83.82 180)
+		(at 182.88 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7866,7 +7737,7 @@
 		(uuid "81ada940-e787-4612-bf6b-829a6e4278d5")
 	)
 	(label "1V2-1"
-		(at 177.8 314.96 180)
+		(at 182.88 314.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8096,7 +7967,7 @@
 		(uuid "f00518ae-4456-4183-9df1-e52ceb06999b")
 	)
 	(label "1V2-3"
-		(at 177.8 162.56 180)
+		(at 182.88 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8276,6 +8147,118 @@
 			(justify left)
 		)
 		(uuid "f6a772d5-5181-4d12-86a9-99dc25f6fd12")
+	)
+	(symbol
+		(lib_id "bitaxe:MCP1824")
+		(at 157.48 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0497ca1e-1ad4-47a3-89ce-e006247ac40c")
+		(property "Reference" "U3"
+			(at 151.13 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP1824T-1202E/OT"
+			(at 164.465 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 157.48 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/22070a.pdf"
+			(at 157.48 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "MCP1824T-1202E/OT"
+			(at 157.48 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "MCP1824T-1202E/OTCT-ND"
+			(at 157.48 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT1" "LDK120M12R"
+			(at 157.48 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 157.48 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "409147c6-f420-4e13-998b-a9a8962270c1")
+		)
+		(pin "2"
+			(uuid "a381527a-a10a-4279-bf74-ea94a6d744d3")
+		)
+		(pin "3"
+			(uuid "da9ff74d-8da7-4ef3-8e06-6e9692a74d1d")
+		)
+		(pin "4"
+			(uuid "5e2fd04d-69ca-417e-bf0f-b0252d2002c3")
+		)
+		(pin "5"
+			(uuid "16e0f7b0-91d9-4e36-8d61-9483bda3d249")
+		)
+		(instances
+			(project "bitaxeBIRDS"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -8464,53 +8447,50 @@
 		)
 	)
 	(symbol
-		(lib_id "bitaxe:TLV75512PDQNR")
-		(at 154.94 243.84 0)
+		(lib_id "bitaxe:MCP1824")
+		(at 157.48 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08f496c5-ea59-48d8-8337-8a4062bf5a3e")
-		(property "Reference" "U12"
-			(at 154.94 233.68 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TLV75512PDQNR"
-			(at 154.94 236.22 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "bitaxe:DQN0004A"
-			(at 154.686 266.446 0)
+		(uuid "0882ddad-7b1b-468a-bc92-e44db3a4308b")
+		(property "Reference" "U1"
+			(at 151.13 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+			)
+		)
+		(property "Value" "MCP1824T-1202E/OT"
+			(at 164.465 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 157.48 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv755p"
-			(at 155.702 263.398 0)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/22070a.pdf"
+			(at 157.48 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 154.94 243.84 0)
+			(at 157.48 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8518,8 +8498,8 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "TLV75512PDQNR"
-			(at 154.94 243.84 0)
+		(property "PARTNO" "MCP1824T-1202E/OT"
+			(at 157.48 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8527,8 +8507,8 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "296-51785-1-ND"
-			(at 154.94 243.84 0)
+		(property "DK" "MCP1824T-1202E/OTCT-ND"
+			(at 157.48 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8536,8 +8516,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 154.94 243.84 0)
+		(property "ALT1" "LDK120M12R"
+			(at 157.48 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8545,25 +8525,34 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "b2de309e-01ce-4bf5-b8d5-33eb4a3742fd")
-		)
-		(pin "3"
-			(uuid "660757e8-9024-4f1a-85c0-06de61321d2e")
+		(property "Field6" ""
+			(at 157.48 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "df24a1d3-80e5-473d-90c7-fb21e1a7007f")
-		)
-		(pin "5"
-			(uuid "839068a3-ed17-4e4c-b179-53586af242bd")
+			(uuid "d4f5e190-b95e-407f-a893-5845298735e0")
 		)
 		(pin "2"
-			(uuid "462fd164-d6cd-465b-ac59-2607d57d8ea8")
+			(uuid "62550d67-c1e0-401f-a6cc-f447fff7fc05")
+		)
+		(pin "3"
+			(uuid "18189a67-0518-41f3-81bb-60ea5cdde26f")
+		)
+		(pin "4"
+			(uuid "3fce54aa-1e58-48a9-9882-6c6d3419cf94")
+		)
+		(pin "5"
+			(uuid "36a1991f-161c-4848-8947-d7aee49c9659")
 		)
 		(instances
 			(project "bitaxeBIRDS"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "U12")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -9469,7 +9458,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 167.64 167.64 0)
+		(at 172.72 167.64 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9478,7 +9467,7 @@
 		(dnp no)
 		(uuid "264ad267-e32c-45da-9809-adf6bb41c4c6")
 		(property "Reference" "C26"
-			(at 173.99 166.878 0)
+			(at 179.07 166.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9487,7 +9476,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 173.736 168.91 0)
+			(at 178.816 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9496,7 +9485,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 167.64 167.64 0)
+			(at 172.72 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9505,7 +9494,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 167.64 0)
+			(at 172.72 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9514,7 +9503,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 167.64 167.64 0)
+			(at 172.72 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9523,7 +9512,7 @@
 			)
 		)
 		(property "DK" "587-5514-1-ND"
-			(at 167.64 167.64 90)
+			(at 172.72 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9532,7 +9521,7 @@
 			)
 		)
 		(property "partnum" ""
-			(at 167.64 167.64 0)
+			(at 172.72 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9541,7 +9530,7 @@
 			)
 		)
 		(property "PARTNO" "EMK105BJ105MV-F"
-			(at 167.64 167.64 0)
+			(at 172.72 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9550,7 +9539,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 167.64 167.64 0)
+			(at 172.72 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9559,7 +9548,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 167.64 167.64 0)
+			(at 172.72 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10872,112 +10861,6 @@
 		)
 	)
 	(symbol
-		(lib_id "bitaxe:TLV75512PDQNR")
-		(at 154.94 317.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c88b142-ecb0-4dae-b6c2-e541a78bb304")
-		(property "Reference" "U3"
-			(at 154.94 307.34 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TLV75512PDQNR"
-			(at 154.94 309.88 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "bitaxe:DQN0004A"
-			(at 154.686 340.106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv755p"
-			(at 155.702 337.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 317.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "TLV75512PDQNR"
-			(at 154.94 317.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "296-51785-1-ND"
-			(at 154.94 317.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 154.94 317.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "00b24a3d-c0fc-43f0-afe3-e8286f6eb571")
-		)
-		(pin "3"
-			(uuid "d472778a-fdb6-4217-89c5-45576b8f20d0")
-		)
-		(pin "1"
-			(uuid "39df8bb9-b0eb-4780-94df-e22a9f06ad3c")
-		)
-		(pin "5"
-			(uuid "a1c1eb9e-d6a6-4a1d-96b3-78a69dac933f")
-		)
-		(pin "2"
-			(uuid "5f41b123-a2be-4247-bd2f-f4dac02dc17a")
-		)
-		(instances
-			(project ""
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 346.71 246.38 180)
 		(unit 1)
@@ -11165,7 +11048,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 167.64 88.9 0)
+		(at 172.72 88.9 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11174,7 +11057,7 @@
 		(dnp no)
 		(uuid "4aedf123-eb5a-435d-94aa-bb22e5fc716b")
 		(property "Reference" "C28"
-			(at 173.99 88.138 0)
+			(at 179.07 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11183,7 +11066,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 173.736 90.17 0)
+			(at 178.816 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11192,7 +11075,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 167.64 88.9 0)
+			(at 172.72 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11201,7 +11084,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 88.9 0)
+			(at 172.72 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11210,7 +11093,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 167.64 88.9 0)
+			(at 172.72 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11219,7 +11102,7 @@
 			)
 		)
 		(property "DK" "587-5514-1-ND"
-			(at 167.64 88.9 90)
+			(at 172.72 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11228,7 +11111,7 @@
 			)
 		)
 		(property "partnum" ""
-			(at 167.64 88.9 0)
+			(at 172.72 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11237,7 +11120,7 @@
 			)
 		)
 		(property "PARTNO" "EMK105BJ105MV-F"
-			(at 167.64 88.9 0)
+			(at 172.72 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11246,7 +11129,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 167.64 88.9 0)
+			(at 172.72 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11255,7 +11138,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 167.64 88.9 0)
+			(at 172.72 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11366,6 +11249,118 @@
 			(project "bitaxeBIRDS"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "TP45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bitaxe:MCP1824")
+		(at 157.48 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f3ef97b-d567-440d-808e-b37568cb8b91")
+		(property "Reference" "U4"
+			(at 151.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP1824T-1202E/OT"
+			(at 164.465 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 157.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/22070a.pdf"
+			(at 157.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "MCP1824T-1202E/OT"
+			(at 157.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "MCP1824T-1202E/OTCT-ND"
+			(at 157.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT1" "LDK120M12R"
+			(at 157.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 157.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d5240cd-6d4e-4059-b0d1-dbfb3fd4db7a")
+		)
+		(pin "2"
+			(uuid "5426d5ec-ca02-4a5d-8dbd-91ba01fb7c30")
+		)
+		(pin "3"
+			(uuid "2366de78-7e4d-4e68-ae40-ef28729ebb5b")
+		)
+		(pin "4"
+			(uuid "f6c97029-66dc-4fde-9ca3-b7b711f11a2e")
+		)
+		(pin "5"
+			(uuid "452f7e62-d318-4753-84c0-7c1c2888ca99")
+		)
+		(instances
+			(project "bitaxeBIRDS"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -11963,7 +11958,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 167.64 320.04 0)
+		(at 172.72 320.04 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11972,7 +11967,7 @@
 		(dnp no)
 		(uuid "62eb6396-d00e-446d-a55f-b459898bff1d")
 		(property "Reference" "C72"
-			(at 173.99 319.278 0)
+			(at 179.07 319.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11981,7 +11976,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 173.736 321.31 0)
+			(at 178.816 321.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11990,7 +11985,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 167.64 320.04 0)
+			(at 172.72 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11999,7 +11994,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 320.04 0)
+			(at 172.72 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12008,7 +12003,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 167.64 320.04 0)
+			(at 172.72 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12017,7 +12012,7 @@
 			)
 		)
 		(property "DK" "587-5514-1-ND"
-			(at 167.64 320.04 90)
+			(at 172.72 320.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12026,7 +12021,7 @@
 			)
 		)
 		(property "partnum" ""
-			(at 167.64 320.04 0)
+			(at 172.72 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12035,7 +12030,7 @@
 			)
 		)
 		(property "PARTNO" "EMK105BJ105MV-F"
-			(at 167.64 320.04 0)
+			(at 172.72 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12044,7 +12039,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 167.64 320.04 0)
+			(at 172.72 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12053,7 +12048,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 167.64 320.04 0)
+			(at 172.72 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13401,7 +13396,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 177.8 241.3 270)
+		(at 182.88 241.3 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -13409,7 +13404,7 @@
 		(dnp no)
 		(uuid "9db65b6b-ff2b-4e08-b3ba-f08d8ba85c17")
 		(property "Reference" "TP2"
-			(at 182.118 241.3 90)
+			(at 187.198 241.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13418,7 +13413,7 @@
 			)
 		)
 		(property "Value" "1V2-2"
-			(at 183.134 243.586 90)
+			(at 188.214 243.586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13427,7 +13422,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
-			(at 177.8 246.38 0)
+			(at 182.88 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13436,7 +13431,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 246.38 0)
+			(at 182.88 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13445,7 +13440,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 177.8 241.3 0)
+			(at 182.88 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13454,7 +13449,7 @@
 			)
 		)
 		(property "partnum" ""
-			(at 177.8 241.3 0)
+			(at 182.88 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13463,7 +13458,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 177.8 241.3 90)
+			(at 182.88 241.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13472,7 +13467,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 177.8 241.3 90)
+			(at 182.88 241.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13600,7 +13595,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 177.8 83.82 270)
+		(at 182.88 83.82 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -13608,7 +13603,7 @@
 		(dnp no)
 		(uuid "a35a31f1-aad4-49c1-bb59-467ce7c77e7f")
 		(property "Reference" "TP4"
-			(at 182.118 83.82 90)
+			(at 187.198 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13617,7 +13612,7 @@
 			)
 		)
 		(property "Value" "1V2-4"
-			(at 183.134 86.106 90)
+			(at 188.214 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13626,7 +13621,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
-			(at 177.8 88.9 0)
+			(at 182.88 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13635,7 +13630,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 88.9 0)
+			(at 182.88 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13644,7 +13639,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 177.8 83.82 0)
+			(at 182.88 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13653,7 +13648,7 @@
 			)
 		)
 		(property "partnum" ""
-			(at 177.8 83.82 0)
+			(at 182.88 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13662,7 +13657,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 177.8 83.82 90)
+			(at 182.88 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13671,7 +13666,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 177.8 83.82 90)
+			(at 182.88 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14013,112 +14008,6 @@
 		)
 	)
 	(symbol
-		(lib_id "bitaxe:TLV75512PDQNR")
-		(at 154.94 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aff5426c-dbe2-4169-88a4-8d46cbc6350b")
-		(property "Reference" "U14"
-			(at 154.94 154.94 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TLV75512PDQNR"
-			(at 154.94 157.48 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "bitaxe:DQN0004A"
-			(at 154.686 187.706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv755p"
-			(at 155.702 184.658 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "TLV75512PDQNR"
-			(at 154.94 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "296-51785-1-ND"
-			(at 154.94 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 154.94 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "1b420f31-3247-45b1-a926-cdf3bc03df15")
-		)
-		(pin "3"
-			(uuid "f22ca781-9b3a-43e6-b731-091559344e58")
-		)
-		(pin "1"
-			(uuid "a2aea2b8-58d9-4abb-bbd7-1c482142d0e3")
-		)
-		(pin "5"
-			(uuid "d872245c-a5ad-4beb-8290-0bb5cdcab1ea")
-		)
-		(pin "2"
-			(uuid "bdbf750f-a027-47b8-838b-a335063ba06b")
-		)
-		(instances
-			(project "bitaxeBIRDS"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "U14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 237.49 161.29 180)
 		(unit 1)
@@ -14299,6 +14188,118 @@
 			(project "bitaxeBIRDS"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "TP30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bitaxe:MCP1824")
+		(at 157.48 316.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5ccf21f-b00e-4c05-92a7-7f01ba6501c5")
+		(property "Reference" "U6"
+			(at 151.13 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP1824T-1202E/OT"
+			(at 164.465 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 157.48 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/22070a.pdf"
+			(at 157.48 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "MCP1824T-1202E/OT"
+			(at 157.48 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "MCP1824T-1202E/OTCT-ND"
+			(at 157.48 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT1" "LDK120M12R"
+			(at 157.48 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 157.48 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dc88f75-6d4e-408c-802e-f752a280704c")
+		)
+		(pin "2"
+			(uuid "d34d377b-b9c8-4a47-b236-400845d95669")
+		)
+		(pin "3"
+			(uuid "496d2248-604c-4645-85ae-66939c52e5d6")
+		)
+		(pin "4"
+			(uuid "8af0e92c-6956-40ae-a227-7b18e37e562e")
+		)
+		(pin "5"
+			(uuid "f4675309-0173-44cc-a5e0-752769059eb3")
+		)
+		(instances
+			(project "bitaxeBIRDS"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -15552,7 +15553,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 177.8 162.56 270)
+		(at 182.88 162.56 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -15560,7 +15561,7 @@
 		(dnp no)
 		(uuid "e0d49795-1ad3-4271-8226-46d4af2b812a")
 		(property "Reference" "TP3"
-			(at 182.118 162.56 90)
+			(at 187.198 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15569,7 +15570,7 @@
 			)
 		)
 		(property "Value" "1V2-3"
-			(at 183.134 164.846 90)
+			(at 188.214 164.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15578,7 +15579,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
-			(at 177.8 167.64 0)
+			(at 182.88 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15587,7 +15588,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 167.64 0)
+			(at 182.88 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15596,7 +15597,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 177.8 162.56 0)
+			(at 182.88 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15605,7 +15606,7 @@
 			)
 		)
 		(property "partnum" ""
-			(at 177.8 162.56 0)
+			(at 182.88 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15614,7 +15615,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 177.8 162.56 90)
+			(at 182.88 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15623,7 +15624,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 177.8 162.56 90)
+			(at 182.88 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15644,114 +15645,8 @@
 		)
 	)
 	(symbol
-		(lib_id "bitaxe:TLV75512PDQNR")
-		(at 154.94 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3f383dc-2070-4c2a-af2d-f79d6417e032")
-		(property "Reference" "U15"
-			(at 154.94 76.2 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TLV75512PDQNR"
-			(at 154.94 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "bitaxe:DQN0004A"
-			(at 154.686 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv755p"
-			(at 155.702 105.918 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "TLV75512PDQNR"
-			(at 154.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "296-51785-1-ND"
-			(at 154.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 154.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "d3348a6e-0ba4-4122-8ee3-5d094457d5b7")
-		)
-		(pin "3"
-			(uuid "1b47181c-965c-4090-996a-9cd7b7fe7e0a")
-		)
-		(pin "1"
-			(uuid "d278718a-2271-46c0-a0e3-443ff96fe621")
-		)
-		(pin "5"
-			(uuid "a3abf5e1-143d-4f3f-8639-ad3ef09cdc2a")
-		)
-		(pin "2"
-			(uuid "a6f6dc7c-3f92-4792-b769-ed148ab49ec2")
-		)
-		(instances
-			(project "bitaxeBIRDS"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "U15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 167.64 246.38 0)
+		(at 172.72 246.38 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15760,7 +15655,7 @@
 		(dnp no)
 		(uuid "e79a21c8-5b4e-42ff-b219-4444a2916dc4")
 		(property "Reference" "C19"
-			(at 173.99 245.618 0)
+			(at 179.07 245.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15769,7 +15664,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 173.736 247.65 0)
+			(at 178.816 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15778,7 +15673,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 167.64 246.38 0)
+			(at 172.72 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15787,7 +15682,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 246.38 0)
+			(at 172.72 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15796,7 +15691,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 167.64 246.38 0)
+			(at 172.72 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15805,7 +15700,7 @@
 			)
 		)
 		(property "DK" "587-5514-1-ND"
-			(at 167.64 246.38 90)
+			(at 172.72 246.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15814,7 +15709,7 @@
 			)
 		)
 		(property "partnum" ""
-			(at 167.64 246.38 0)
+			(at 172.72 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15823,7 +15718,7 @@
 			)
 		)
 		(property "PARTNO" "EMK105BJ105MV-F"
-			(at 167.64 246.38 0)
+			(at 172.72 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15832,7 +15727,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 167.64 246.38 0)
+			(at 172.72 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15841,7 +15736,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 167.64 246.38 0)
+			(at 172.72 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15959,7 +15854,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 177.8 314.96 270)
+		(at 182.88 314.96 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -15967,7 +15862,7 @@
 		(dnp no)
 		(uuid "f4268055-9226-4aa8-b614-22b7301e786c")
 		(property "Reference" "TP18"
-			(at 182.118 314.96 90)
+			(at 187.198 314.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15976,7 +15871,7 @@
 			)
 		)
 		(property "Value" "1V2-1"
-			(at 183.134 317.246 90)
+			(at 188.214 317.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15985,7 +15880,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
-			(at 177.8 320.04 0)
+			(at 182.88 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15994,7 +15889,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 320.04 0)
+			(at 182.88 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16003,7 +15898,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 177.8 314.96 0)
+			(at 182.88 314.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16012,7 +15907,7 @@
 			)
 		)
 		(property "partnum" ""
-			(at 177.8 314.96 0)
+			(at 182.88 314.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16021,7 +15916,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 177.8 314.96 90)
+			(at 182.88 314.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16030,7 +15925,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 177.8 314.96 90)
+			(at 182.88 314.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
