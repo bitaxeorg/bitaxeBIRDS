@@ -689,6 +689,12 @@
           "label": "Power",
           "name": "Power",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Partnum",
+          "name": "Partnum",
+          "show": false
         }
       ],
       "filter_string": "",

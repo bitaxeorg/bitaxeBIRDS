@@ -7303,7 +7303,7 @@
 			(remove_unused_layers no)
 			(net 4 "/3V3")
 			(pinfunction "3V3")
-			(pintype "power_in")
+			(pintype "power_out")
 			(uuid "bb5d9ee8-3ae4-4a84-84a4-7f93e4a913f9")
 		)
 		(pad "37" thru_hole circle
@@ -25041,7 +25041,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "1292-1639-1-ND"
+		(property "DK" "490-16458-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -25055,7 +25055,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "0402X104K100CT"
+		(property "PARTNO" "GCM1555C1H121FA16D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31550,7 +31550,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "1292-1639-1-ND"
+		(property "DK" "490-16458-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31564,7 +31564,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "0402X104K100CT"
+		(property "PARTNO" "GCM1555C1H121FA16D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37616,7 +37616,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "1292-1639-1-ND"
+		(property "DK" "490-16458-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37630,7 +37630,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "0402X104K100CT"
+		(property "PARTNO" "GCM1555C1H121FA16D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -38077,7 +38077,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 100 "/ASIC/1V2-1")
 			(pinfunction "EN")
-			(pintype "bidirectional")
+			(pintype "input")
 			(solder_mask_margin 0.102)
 			(uuid "2d3ebf57-ee30-41fd-a577-58ee3a73bf36")
 		)
@@ -38087,7 +38087,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 16 "GND")
 			(pinfunction "GND")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(solder_mask_margin 0.102)
 			(uuid "d4ae1ff1-7b04-4c6d-8d04-d36451f9ad00")
 		)
@@ -38097,7 +38097,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 84 "/ASIC/REFCLKIN1")
 			(pinfunction "OUT")
-			(pintype "bidirectional")
+			(pintype "output")
 			(solder_mask_margin 0.102)
 			(uuid "0334fef3-02d2-44e8-8039-7bdb2255917a")
 		)
@@ -38107,7 +38107,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 100 "/ASIC/1V2-1")
 			(pinfunction "VIN")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(solder_mask_margin 0.102)
 			(uuid "f79e215d-c44f-4c97-93ee-3f8ba448094e")
 		)
@@ -52851,7 +52851,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "1292-1639-1-ND"
+		(property "DK" "490-16458-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -52865,7 +52865,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "0402X104K100CT"
+		(property "PARTNO" "GCM1555C1H121FA16D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -53112,7 +53112,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "1292-1639-1-ND"
+		(property "DK" "490-16458-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -53126,7 +53126,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" "0402X104K100CT"
+		(property "PARTNO" "GCM1555C1H121FA16D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
