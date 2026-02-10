@@ -5,8 +5,9 @@
 	(uuid "a71c49da-ffbc-408e-ae53-05e0be0544e5")
 	(paper "A4")
 	(title_block
-		(date "2025-10-01")
-		(rev "1300xx")
+		(title "Bitaxe Intel Reference Design System")
+		(date "2026-02-09")
+		(rev "1300xxx")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -1457,7 +1458,7 @@
 				)
 			)
 		)
-		(property "Value" "DLLFSD01LPH4-7B"
+		(property "Value" "DLLFSD01T-7"
 			(at 177.546 94.234 0)
 			(effects
 				(font
@@ -1465,7 +1466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bitaxe:DIODE_DLLFSD01LPH4-7B_DIO"
+		(property "Footprint" "bitaxe:D_SOD-523"
 			(at 170.18 83.82 0)
 			(effects
 				(font
@@ -1492,7 +1493,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "31-DLLFSD01LPH4-7BCT-ND"
+		(property "DK" "DLLFSD01T-7DICT-ND"
 			(at 172.212 83.312 0)
 			(effects
 				(font
@@ -1501,7 +1502,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "DLLFSD01LPH4-7B"
+		(property "PARTNO" "DLLFSD01T-7"
 			(at 168.402 84.074 0)
 			(effects
 				(font
@@ -1811,7 +1812,7 @@
 				)
 			)
 		)
-		(property "Value" "DLLFSD01LPH4-7B"
+		(property "Value" "DLLFSD01T-7"
 			(at 96.266 94.234 0)
 			(effects
 				(font
@@ -1819,7 +1820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bitaxe:DIODE_DLLFSD01LPH4-7B_DIO"
+		(property "Footprint" "bitaxe:D_SOD-523"
 			(at 88.9 83.82 0)
 			(effects
 				(font
@@ -1846,7 +1847,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "31-DLLFSD01LPH4-7BCT-ND"
+		(property "DK" "DLLFSD01T-7DICT-ND"
 			(at 90.932 83.312 0)
 			(effects
 				(font
@@ -1855,7 +1856,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "DLLFSD01LPH4-7B"
+		(property "PARTNO" "DLLFSD01T-7"
 			(at 87.122 84.074 0)
 			(effects
 				(font
@@ -2054,7 +2055,7 @@
 				)
 			)
 		)
-		(property "Value" "DLLFSD01LPH4-7B"
+		(property "Value" "DLLFSD01T-7"
 			(at 164.846 94.234 0)
 			(effects
 				(font
@@ -2062,7 +2063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bitaxe:DIODE_DLLFSD01LPH4-7B_DIO"
+		(property "Footprint" "bitaxe:D_SOD-523"
 			(at 157.48 83.82 0)
 			(effects
 				(font
@@ -2089,7 +2090,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "31-DLLFSD01LPH4-7BCT-ND"
+		(property "DK" "DLLFSD01T-7DICT-ND"
 			(at 159.512 83.312 0)
 			(effects
 				(font
@@ -2098,7 +2099,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "DLLFSD01LPH4-7B"
+		(property "PARTNO" "DLLFSD01T-7"
 			(at 155.702 84.074 0)
 			(effects
 				(font
@@ -2296,7 +2297,7 @@
 				)
 			)
 		)
-		(property "Value" "DLLFSD01LPH4-7B"
+		(property "Value" "DLLFSD01T-7"
 			(at 153.416 94.234 0)
 			(effects
 				(font
@@ -2304,7 +2305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bitaxe:DIODE_DLLFSD01LPH4-7B_DIO"
+		(property "Footprint" "bitaxe:D_SOD-523"
 			(at 146.05 83.82 0)
 			(effects
 				(font
@@ -2331,7 +2332,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "31-DLLFSD01LPH4-7BCT-ND"
+		(property "DK" "DLLFSD01T-7DICT-ND"
 			(at 148.082 83.312 0)
 			(effects
 				(font
@@ -2340,7 +2341,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "DLLFSD01LPH4-7B"
+		(property "PARTNO" "DLLFSD01T-7"
 			(at 144.272 84.074 0)
 			(effects
 				(font

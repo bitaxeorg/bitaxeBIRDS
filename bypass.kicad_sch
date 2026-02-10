@@ -5,8 +5,9 @@
 	(uuid "cbc6b48d-ba47-4400-8220-9467ef5e7795")
 	(paper "A4")
 	(title_block
-		(date "2025-10-01")
-		(rev "1300xx")
+		(title "Bitaxe Intel Reference Design System")
+		(date "2026-02-09")
+		(rev "1300xxx")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"

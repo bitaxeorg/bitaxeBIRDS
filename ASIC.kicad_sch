@@ -6,8 +6,8 @@
 	(paper "A2")
 	(title_block
 		(title "Bitaxe Intel Reference Design System")
-		(date "2025-10-01")
-		(rev "1300xx")
+		(date "2026-02-09")
+		(rev "1300xxx")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
