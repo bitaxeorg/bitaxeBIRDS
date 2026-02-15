@@ -7436,7 +7436,7 @@
 		)
 		(uuid "07582b60-bc86-4f96-9162-b50ce2b88788")
 	)
-	(label "GND2"
+	(label "GND3"
 		(at 259.08 171.45 0)
 		(effects
 			(font
